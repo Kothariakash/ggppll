@@ -220,7 +220,7 @@
 
 **B1.** Why is a bias audit prompt essential after generating a job description? Name three specific bias types it should check for. *(2 marks)*
 
-**Model Answer:** Job descriptions are gatekeeping documents — biased language silently reduces the diversity of applicants before any human reviews a single CV. Three specific bias types to audit: (1) **Gendered language** — words like "rockstar," "ninja," "aggressive," or "dominant" code masculine and deter female applicants; words like "nurturing" or "collaborative" may deter male applicants in certain contexts. (2) **Over-qualification requirements** — requiring a degree for a role where experience would suffice, or requiring 10 years of experience for mid-level roles, systematically excludes qualified candidates from underrepresented backgrounds. (3) **Ageist language** — "digital native," "young and dynamic," or "recent graduate preferred" signal age preference, which is illegal in many jurisdictions.
+**Answer:** Job descriptions are gatekeeping documents — biased language silently reduces the diversity of applicants before any human reviews a single CV. Three specific bias types to audit: (1) **Gendered language** — words like "rockstar," "ninja," "aggressive," or "dominant" code masculine and deter female applicants; words like "nurturing" or "collaborative" may deter male applicants in certain contexts. (2) **Over-qualification requirements** — requiring a degree for a role where experience would suffice, or requiring 10 years of experience for mid-level roles, systematically excludes qualified candidates from underrepresented backgrounds. (3) **Ageist language** — "digital native," "young and dynamic," or "recent graduate preferred" signal age preference, which is illegal in many jurisdictions.
 
 *Marking: 1 mark for why bias auditing matters. 1 mark for three specific, correctly identified bias types.*
 
@@ -228,7 +228,7 @@
 
 **B2.** Write a prompt to generate a Porter's Five Forces analysis for a new entrant into the Indian cloud kitchen industry. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 You are a competitive strategy analyst specializing in food service and delivery markets.
 
@@ -255,7 +255,7 @@ Flag any claim requiring current market data with [VERIFY].
 
 **B3.** Explain why "Let me know if you need anything else" is a weak customer support closing, and write a stronger AI prompt instruction to replace it. *(2 marks)*
 
-**Model Answer:** "Let me know if you need anything else" is weak because: it places the burden of next action entirely on the customer, it does not confirm that the current issue is resolved, it signals the agent is done caring rather than committed to resolution, and it is so generic that it adds no value. A stronger closing follows the "Follow-up" step of AEERF: confirm the resolution, state what happens next, and provide a specific re-contact path.
+**Answer:** "Let me know if you need anything else" is weak because: it places the burden of next action entirely on the customer, it does not confirm that the current issue is resolved, it signals the agent is done caring rather than committed to resolution, and it is so generic that it adds no value. A stronger closing follows the "Follow-up" step of AEERF: confirm the resolution, state what happens next, and provide a specific re-contact path.
 
 **Better instruction:**
 ```
@@ -273,7 +273,7 @@ Never use: "Let me know if you need anything else" — it is vague and passive.
 
 **B4.** You are using AI to generate a financial board report narrative. The AI writes: "Sales exceeded target due to favorable conditions." Rewrite this as a specific variance comment and explain what prompt changes would have produced it. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 **Strong Variance Comment:** "Revenue of ₹42Cr exceeded the ₹38Cr plan by ₹4Cr (+10.5%), driven by the early closure of three Enterprise segment contracts in the West region that were originally forecasted for Q4. This was partially offset by SMB revenue shortfall of ₹0.8Cr due to two deals slipping into next quarter."
 
 **Prompt changes that would produce this:**
@@ -287,7 +287,7 @@ Never use: "Let me know if you need anything else" — it is vague and passive.
 
 **B5.** What is the difference between TAM, SAM, and SOM? Why does a business case using only TAM mislead decision-makers? *(2 marks)*
 
-**Model Answer:** **TAM** (Total Addressable Market) is the total global revenue opportunity if you captured 100% of the market — a theoretical ceiling. **SAM** (Serviceable Addressable Market) is the segment you can realistically reach with your current product model, pricing, and geography. **SOM** (Serviceable Obtainable Market) is what you can realistically win given your current resources, team, and competitive position — typically 1–5% of SAM in early stages. Using only TAM misleads decision-makers because: a ₹500Cr TAM implies massive opportunity, but if the SAM is ₹50Cr (only India, only enterprise) and the SOM is ₹5Cr (realistic capture in 3 years), the investment thesis changes completely. Presenting TAM without SAM and SOM is a common pitch error that experienced investors immediately question.
+**Answer:** **TAM** (Total Addressable Market) is the total global revenue opportunity if you captured 100% of the market — a theoretical ceiling. **SAM** (Serviceable Addressable Market) is the segment you can realistically reach with your current product model, pricing, and geography. **SOM** (Serviceable Obtainable Market) is what you can realistically win given your current resources, team, and competitive position — typically 1–5% of SAM in early stages. Using only TAM misleads decision-makers because: a ₹500Cr TAM implies massive opportunity, but if the SAM is ₹50Cr (only India, only enterprise) and the SOM is ₹5Cr (realistic capture in 3 years), the investment thesis changes completely. Presenting TAM without SAM and SOM is a common pitch error that experienced investors immediately question.
 
 *Marking: 1 mark for accurate definitions of all three with the relationship between them. 1 mark for the specific misleading consequence of TAM-only presentation.*
 
@@ -295,7 +295,7 @@ Never use: "Let me know if you need anything else" — it is vague and passive.
 
 **B6.** Design a "Content Repurposing Pipeline" prompt that converts a 1,500-word blog post into four platform-specific outputs in one prompt. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 You are a content strategist and platform specialist.
 Brand voice: [paste brand voice card]
@@ -332,7 +332,7 @@ Rules for all: Match brand voice. No generic openings. Every piece standalone-re
 
 **B7.** What are three tasks in HR where AI assistance is INAPPROPRIATE without significant human oversight? *(2 marks)*
 
-**Model Answer:** (1) **Final hiring decisions** — AI screening tools have documented demographic bias and shortlist errors; legal accountability for hiring discrimination rests with the employer, not the AI. Humans must make the final call with full judgment. (2) **Disciplinary or termination decisions** — these require legal process compliance, proportionality assessment, and procedural documentation specific to jurisdiction and company policy. An AI-generated termination notice without legal review is a significant liability. (3) **Disability accommodation assessments** — determining reasonable accommodation requires medical information, ADA/local law knowledge, and individualized human judgment. AI cannot assess what accommodations are appropriate for a specific employee's condition without crossing privacy and legal boundaries.
+**Answer:** (1) **Final hiring decisions** — AI screening tools have documented demographic bias and shortlist errors; legal accountability for hiring discrimination rests with the employer, not the AI. Humans must make the final call with full judgment. (2) **Disciplinary or termination decisions** — these require legal process compliance, proportionality assessment, and procedural documentation specific to jurisdiction and company policy. An AI-generated termination notice without legal review is a significant liability. (3) **Disability accommodation assessments** — determining reasonable accommodation requires medical information, ADA/local law knowledge, and individualized human judgment. AI cannot assess what accommodations are appropriate for a specific employee's condition without crossing privacy and legal boundaries.
 
 *Marking: 1 mark for any 2 valid scenarios with specific risk identified. 1 mark for all 3 with adequate rationale.*
 
@@ -340,7 +340,7 @@ Rules for all: Match brand voice. No generic openings. Every piece standalone-re
 
 **B8.** How would you prompt AI to generate a BATNA analysis before a supplier pricing negotiation? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 You are a negotiation strategist preparing me for a supplier pricing renewal.
 
@@ -368,7 +368,7 @@ when to walk away.
 
 **B9.** What makes an AI-generated marketing campaign brief useful vs. generic? Give three specific elements that must be in the prompt to produce a useful brief. *(2 marks)*
 
-**Model Answer:** An AI-generated campaign brief is generic when it contains observations that apply to any brand ("target millennials," "use social media," "create engaging content"). It is useful when it contains specific, decision-enabling content that guides creative teams on exactly what to produce and why. Three essential prompt elements: (1) **Specific audience profile with pain point** — not "marketing professionals" but "marketing managers at 50–200 person B2B companies who currently manage campaigns in Excel and feel overwhelmed by tracking ROI across 4+ channels." The pain point is what makes the brief relevant. (2) **Single campaign message** — force the AI to commit to ONE core message, not a list of messages. "If the audience remembers only one thing from this campaign, it should be: [X]." (3) **Creative guardrails from the brand voice document** — paste the brand voice card and add: "Every creative asset must be reviewable against this voice standard before production."
+**Answer:** An AI-generated campaign brief is generic when it contains observations that apply to any brand ("target millennials," "use social media," "create engaging content"). It is useful when it contains specific, decision-enabling content that guides creative teams on exactly what to produce and why. Three essential prompt elements: (1) **Specific audience profile with pain point** — not "marketing professionals" but "marketing managers at 50–200 person B2B companies who currently manage campaigns in Excel and feel overwhelmed by tracking ROI across 4+ channels." The pain point is what makes the brief relevant. (2) **Single campaign message** — force the AI to commit to ONE core message, not a list of messages. "If the audience remembers only one thing from this campaign, it should be: [X]." (3) **Creative guardrails from the brand voice document** — paste the brand voice card and add: "Every creative asset must be reviewable against this voice standard before production."
 
 *Marking: 1 mark for correctly characterizing the generic vs. useful distinction. 1 mark for three specific, well-explained prompt elements.*
 
@@ -376,7 +376,7 @@ when to walk away.
 
 **B10.** A customer support team wants to evaluate whether their AI response system is performing well. Design a 5-criterion quality rubric with scoring guidance. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 
 | Criterion | 1 (Poor) | 3 (Adequate) | 5 (Excellent) |
 |-----------|---------|-------------|--------------|
@@ -396,7 +396,7 @@ when to walk away.
 
 **C1.** *(6 marks)* Design a complete AI-assisted talent acquisition pipeline for a mid-size company, covering job description creation with bias audit, CV screening support, interview question generation, and candidate communication. Show a specific prompt for each stage.
 
-**Model Answer:**
+**Answer:**
 
 **Stage 1 — Job Description + Bias Audit:**
 ```
@@ -464,7 +464,7 @@ keeps the door open. Under 120 words. Genuine, not template-sounding.
 
 **C2.** *(6 marks)* A SaaS company's marketing team wants an AI content system. Design prompts for: brand voice setup, 4-week content calendar, blog post pipeline (3 steps), and repurposing workflow.
 
-**Model Answer:**
+**Answer:**
 
 **Brand Voice Setup (One-Time):**
 ```
@@ -530,7 +530,7 @@ All: match brand voice, standalone-readable, platform-optimized.
 
 **C3.** *(6 marks)* Design an AI-assisted strategic analysis for a new market entry decision. Include: PESTLE prompt, Porter's Five Forces prompt, and synthesis-to-recommendation prompt. Show context inputs needed for each.
 
-**Model Answer:**
+**Answer:**
 
 **Context Inputs (gathered first):**
 - Company description: product, stage, team, current geography, funding available
@@ -597,7 +597,7 @@ Synthesize into a strategic recommendation:
 
 **C4.** *(6 marks)* Design a complete AI-assisted customer support system: AI persona, 3 response templates, quality rubric, and escalation policy. Explain why each design decision was made.
 
-**Model Answer:**
+**Answer:**
 
 **AI Persona (System Prompt):**
 ```
@@ -683,7 +683,7 @@ Target: ≥4.0 average. Any ≤2 triggers coaching. System average <3.5 triggers
 
 **C5.** *(6 marks)* Calculate the ROI of automating invoice processing commentary with AI. Current state: 3 analysts × 8 hours/week × ₹800/hour fully loaded. Design the calculation framework and the prompt that would produce automation-ready output.
 
-**Model Answer:**
+**Answer:**
 
 **ROI Calculation Framework:**
 

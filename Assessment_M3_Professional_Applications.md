@@ -378,7 +378,7 @@
 
 **B1.** You receive an AI-generated summary of a scientific paper that states "multiple studies confirm that mindfulness reduces cortisol by 23%." What are the 3 specific verification steps you would take before using this claim professionally? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 (1) **Trace the specific claim:** Ask the AI "Which specific studies does this 23% figure come from? Provide author names, year, and journal." If the AI cannot provide specific citations (or provides citations that don't exist when searched), the claim is hallucinated or fabricated. (2) **Locate the primary source:** Use Google Scholar or PubMed to find the actual studies. Read the abstract and results section — does the 23% appear, in the same context? Many AI summaries misstate effect sizes or conflate results from different studies. (3) **Check for consensus:** A 23% specific figure cited across "multiple studies" is suspicious — effect sizes vary across studies. Search for a systematic review or meta-analysis that aggregates this evidence to determine whether the figure reflects consensus or one outlier study. [VERIFY] flag should be added to this claim in any professional document until all three steps are completed.
 
 *Marking: 1 mark for any 2 correct steps. 1 mark for all 3 with specific, actionable detail.*
@@ -387,7 +387,7 @@
 
 **B2.** Write a prompt that uses AI to transform a 20-page technical product specification into a 3-paragraph sales one-pager for non-technical buyers. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 You are a B2B product marketing specialist who translates complex technical
 specifications into clear, benefit-focused sales content for non-technical buyers.
@@ -419,7 +419,7 @@ operational reliability — not our product's features.
 
 **B3.** What is the difference between a "research summary" and a "research synthesis"? Why does this distinction matter for professional knowledge work? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 A research summary distills the content of a single source — it captures what one paper, report, or article says, in fewer words. A research synthesis draws across multiple sources — it identifies patterns, agreements, contradictions, and gaps across a body of knowledge, creating insight that no single source contains. The distinction matters because: decisions in professional knowledge work are rarely informed by a single paper; they require understanding what the field collectively knows, where experts agree, and where uncertainty remains. Presenting a summary of one favorable study as if it represents consensus ("research shows...") is a common and consequential error. Synthesis requires the SIFT mindset — finding multiple sources, comparing claims, and accurately representing the state of knowledge, not the position of the most convenient source.
 
 *Marking: 1 mark for clear definitional distinction. 1 mark for the professional significance.*
@@ -428,7 +428,7 @@ A research summary distills the content of a single source — it captures what 
 
 **B4.** You are writing a difficult email telling a long-term supplier that you are not renewing their contract. Write the BLUF opener, the empathy acknowledgment, and the clear next step. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 **BLUF Opener:** "I'm writing to let you know that we will not be renewing our contract with [Supplier] when it expires on [Date]."
 
 **Empathy Acknowledgment:** "This has been a 7-year partnership and one we've valued highly. The decision was not easy and does not reflect any dissatisfaction with your team's professionalism or quality of service — it reflects a strategic restructuring of our supply chain that requires us to consolidate vendors in your category."
@@ -441,7 +441,7 @@ A research summary distills the content of a single source — it captures what 
 
 **B5.** Describe what a "Daily AI Morning Routine" might look like for a project manager. Include 3 specific AI-assisted tasks and the prompts or prompt types you would use for each. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 A project manager's AI morning routine (15–20 minutes):
 
 **Task 1 — Daily Priority Setting (5 min):** Paste yesterday's notes + today's calendar into a "Daily Planning Prompt" — AI outputs a prioritized action list with time estimates and flagged blockers. Uses: Zero-shot with structured context input.
@@ -458,7 +458,7 @@ Total time: ~15 minutes to complete tasks that would otherwise take 45+ minutes 
 
 **B6.** What makes an email "difficult to write" professionally, and how does AI change the approach to these emails specifically? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Difficult professional emails share common characteristics: high emotional stakes (bad news, conflict, accountability), risk of relationship damage if tone is wrong, and the need to balance honesty with empathy — a calibration that is cognitively demanding under pressure. The writer's emotional involvement often produces defensive, over-apologetic, or over-formal drafts. AI changes the approach in three specific ways: (1) **Emotional distance** — AI produces a draft from a neutral position, free of the writer's anxiety, which is then calibrated by the human; (2) **Structure discipline** — AI reliably applies frameworks (BLUF, acknowledge-explain-resolve-next step) that anxious writers skip; (3) **Tone calibration** — the AI draft becomes a "room temperature" version that the human can warm up or cool down as needed. The human still makes all relationship judgments; AI provides a structurally sound starting point that is often better than a first draft written under emotional pressure.
 
 *Marking: 1 mark for accurately characterizing what makes these emails difficult. 1 mark for 2–3 specific ways AI changes the approach.*
@@ -467,7 +467,7 @@ Difficult professional emails share common characteristics: high emotional stake
 
 **B7.** What are the "Narrative Arc" components of a strong business presentation? Describe each in one sentence. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 A strong business presentation narrative arc has 5 components:
 1. **Setup (The World):** Establish the current situation or context the audience already agrees with — create common ground.
 2. **Conflict (The Problem/Opportunity):** Introduce the tension, challenge, or opportunity that disrupts the current situation and creates the "why now?" urgency.
@@ -483,7 +483,7 @@ This arc mirrors the structure that humans are neurologically wired to follow �
 
 **B8.** You have used AI to generate an analysis of market trends. Before presenting it to your leadership team, list 5 specific verification checks you would perform. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 1. **Fact-check all statistics:** Every specific number (market size, growth rate, percentage) traced to its original source — not just the AI's assertion.
 2. **Verify named organizations/studies:** Any named company, research firm, or study must actually exist and must actually say what the AI claims.
 3. **Check for recency:** AI training data has a cutoff — any "current" trend claim may be 1–2 years old. Verify whether the trend still holds.
@@ -496,7 +496,7 @@ This arc mirrors the structure that humans are neurologically wired to follow �
 
 **B9.** What is the "Speaker Notes" best practice for AI-assisted presentations, and why should speaker notes NOT be written before the slides are complete? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Speaker notes should be written after ALL slides are finalized, because notes are the spoken complement to the visual — they contextualize, humanize, and elaborate on what the slide shows. Writing notes before slides are complete leads to notes that describe what you planned to say rather than what the final slide actually shows — creating a disconnect between spoken and visual content that audiences detect as disorganization. Speaker note best practice for AI-assisted presentations: paste the finalized slide content into the notes generation prompt; ask the AI to write notes as "what a confident presenter would say naturally while this slide is shown" — conversational, not formal, not a read-aloud script. Notes should tell the story behind the data, the decision that led to this finding, or the human context that makes the slide meaningful — content the slide itself cannot carry.
 
 *Marking: 1 mark for the rationale (why not before). 1 mark for the best practice description.*
@@ -505,7 +505,7 @@ Speaker notes should be written after ALL slides are finalized, because notes ar
 
 **B10.** How does a "personal prompt library" protect against organizational knowledge loss when a team member leaves? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Without a prompt library, a departing team member takes with them: the specific prompts that worked for recurring tasks, the iteration knowledge (what failed and why, what finally worked), the system design (which tasks were AI-assisted and in what sequence), and the quality benchmarks (what "good" looked like for each task type). This is as significant a knowledge loss as losing a process document or a code base. A documented prompt library captures all of this: each entry has the working prompt, the failure history (iteration log), performance data (success rate), and documented use cases. A new team member can onboard to the AI workflow in hours rather than weeks — and the team's AI capability doesn't reset when personnel changes occur. This makes the library a form of institutional memory that belongs to the team, not to an individual.
 
 *Marking: 1 mark for identifying what is lost without documentation. 1 mark for how the library specifically prevents each loss.*
@@ -520,7 +520,7 @@ Without a prompt library, a departing team member takes with them: the specific 
 
 **C1.** *(6 marks)* You are a business analyst asked to produce a competitive landscape report on three cloud storage providers. Design the complete AI-assisted research pipeline: from initial orientation through synthesis, showing the specific prompt type and technique for each stage. Include how you would apply the SIFT framework to validate the AI's outputs.
 
-**Model Answer:**
+**Answer:**
 
 **Research Pipeline — 5 Stages:**
 
@@ -586,7 +586,7 @@ Output: Synthesis table — Dimension | Provider A | Provider B | Provider C
 
 **C2.** *(6 marks)* Write a complete, ready-to-use email prompt template for a senior sales manager who needs to follow up on a proposal sent 5 days ago, adapt it for three scenarios (warm response, no response, verbally interested but silent), and explain the structural differences between the three versions.
 
-**Model Answer:**
+**Answer:**
 
 **Base Prompt Template:**
 ```
@@ -679,7 +679,7 @@ Structural approach:
 
 **C3.** *(6 marks)* Design a complete "AI-Assisted Presentation Preparation" workflow for a 20-minute investor presentation. Include: audience analysis prompt, content architecture prompt, slide content generation for 3 key slides, and Q&A preparation prompt. Explain the design decisions.
 
-**Model Answer:**
+**Answer:**
 
 **Step 1 — Audience Analysis:**
 ```
@@ -784,7 +784,7 @@ For each question:
 
 **C4.** *(6 marks)* A marketing director has these tasks that consume the most time each week: writing the weekly team status update (1.5 hrs), responding to standard media inquiries (2 hrs), reviewing and editing agency-submitted copy (2 hrs), and briefing the design team on new campaigns (1 hr). Design a complete AI productivity system for these 4 tasks — prompt types, templates, and an estimate of time saved per task.
 
-**Model Answer:**
+**Answer:**
 
 **Task 1 — Weekly Team Status Update (1.5 hrs → 25 mins)**
 
@@ -912,7 +912,7 @@ At a 50-week work year: **225 hours saved annually** — equivalent to approxima
 
 **C5.** *(6 marks)* Write a complete "Reflection and Learning Capture" prompt that a professional could use at the end of each week to synthesize their learnings, update their AI system, and plan their next AI improvement. Then explain how this prompt embeds continuous improvement into a personal AI productivity system.
 
-**Model Answer:**
+**Answer:**
 
 **Weekly AI Reflection and System Improvement Prompt:**
 

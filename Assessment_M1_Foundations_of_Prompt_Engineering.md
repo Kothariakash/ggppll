@@ -383,7 +383,7 @@
 
 **B1.** Explain in your own words why the temperature parameter matters for professional AI use. Give one scenario where you would use low temperature and one where you would use high temperature. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Temperature controls the randomness of token selection during generation. At low temperature (0.0–0.3), the model consistently picks the most probable next token, producing predictable, accurate outputs — ideal for factual summaries, data extraction, classification, or code generation where consistency is critical. At high temperature (0.7–1.0), the model samples from a wider distribution, introducing creative variation — ideal for brainstorming, fiction writing, or generating multiple diverse alternatives to a marketing headline. Choosing the wrong temperature setting for the task is a common, easily-fixed prompt engineering error.
 
 *Marking: 1 mark for correct explanation of temperature mechanics. 1 mark for two appropriate, clearly contrasted use cases.*
@@ -392,7 +392,7 @@ Temperature controls the randomness of token selection during generation. At low
 
 **B2.** A junior team member says: "The AI gave me a wrong answer, so AI tools are unreliable." How would you respond as a trained prompt engineer? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 The quality of AI output is largely determined by the quality of the prompt — not just the model's inherent capability. A vague or incomplete prompt will reliably produce a generic or incorrect response; a precisely engineered prompt with Role, Context, Task, Format, and Tone will dramatically improve accuracy. Additionally, LLMs are text-prediction engines, not knowledge verification systems — all factual outputs must be independently verified before professional use. The correct mental model is: AI as a capable assistant who needs clear, specific instructions, not a magic answer machine.
 
 *Marking: 1 mark for addressing prompt quality as the root cause. 1 mark for the verification/hallucination point.*
@@ -401,7 +401,7 @@ The quality of AI output is largely determined by the quality of the prompt — 
 
 **B3.** What is the difference between the Context and the Role components in a CRAFT prompt? Give an example of each. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Role defines WHO the AI is being — the identity, expertise, or perspective it adopts (e.g., "You are a senior tax attorney with 15 years of corporate experience"). Context provides the background information ABOUT THE SITUATION the AI needs to give a relevant, tailored response (e.g., "My company is a 200-person SaaS startup exploring expansion into the EU market and we need to understand GDPR implications"). Role shapes the AI's perspective and expertise level; Context shapes the relevance and specificity of the content. Both are needed: Role without Context produces expert-sounding but generic advice; Context without Role produces relevant-topic but potentially shallow advice.
 
 *Marking: 1 mark for clear conceptual distinction with definitions. 1 mark for a concrete example of each.*
@@ -410,7 +410,7 @@ Role defines WHO the AI is being — the identity, expertise, or perspective it 
 
 **B4.** Describe three signs that a prompt needs to be revised based on its output. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Three clear revision signals: (1) **Generic output** — the AI's response could apply to any company or person in any context, suggesting the Context or Task is too vague. (2) **Wrong format** — the output is a paragraph when you needed a table, or a list when you needed a narrative, indicating a missing or unclear Format specification. (3) **Wrong tone or audience level** — the content is too technical for a non-technical audience or too casual for a board presentation, indicating a missing or insufficient Tone instruction. Additional valid signals include: hallucinated facts (needs RAG guardrails), missing information (needs more specific Task decomposition), or off-topic tangents (needs constraints).
 
 *Marking: 1 mark for any 2 clearly described signals. 1 mark for all 3 with brief explanation of the root cause each reveals.*
@@ -419,7 +419,7 @@ Three clear revision signals: (1) **Generic output** — the AI's response could
 
 **B5.** What is the practical significance of the context window limit for someone who wants to paste a long document into ChatGPT? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 The context window is the total token budget shared between input and output. If you paste a very long document (e.g., a 50-page report), it may consume most or all of the context window — leaving little space for the model to generate a thorough response. More critically, if the document exceeds the context window entirely, the model either truncates the input (ignoring the excess) or returns an error. The practical solution is to extract only the relevant sections before pasting, use chunking strategies (summarize in sections, then synthesize the summaries), or use a model with a larger context window (e.g., Claude or Gemini with 200k+ tokens) for very long documents.
 
 *Marking: 1 mark for explaining the token budget constraint. 1 mark for at least one practical workaround.*
@@ -428,7 +428,7 @@ The context window is the total token budget shared between input and output. If
 
 **B6.** Write the CRAFT components for this task: "I need to write a rejection email for a job applicant who was a strong candidate but we hired someone with more specific experience." *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 - **C (Context):** We interviewed [Candidate Name] for the [Role] position. They were a strong candidate overall but we selected another applicant who had more direct experience in [specific area]. This person may apply again in future.
 - **R (Role):** You are an HR professional writing on behalf of a company that values candidate relationships and employer brand.
 - **A (Action):** Write a rejection email that thanks the candidate, acknowledges their strengths, explains the decision briefly without over-explaining, keeps the door open for future opportunities.
@@ -441,7 +441,7 @@ The context window is the total token budget shared between input and output. If
 
 **B7.** Why should a prompt engineer prefer "Write a 3-column table with columns: Benefit, Evidence, Source" over "Summarize the benefits"? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 The first prompt specifies exact output format — a 3-column table with named columns — which constrains the AI to produce a structured, immediately usable output. The second prompt leaves format completely open, so the AI will default to its own judgment (likely prose paragraphs or unstructured bullets) which may require significant reformatting before use. In professional settings where outputs feed directly into documents, decks, or databases, format specification eliminates post-processing work and ensures consistency across multiple runs of the same prompt. Additionally, the first prompt implicitly asks for Evidence and Source — forcing the AI to support claims and flag what should be verified, improving output quality and accountability.
 
 *Marking: 1 mark for the format control argument. 1 mark for noting the downstream usability and quality improvement.*
@@ -450,7 +450,7 @@ The first prompt specifies exact output format — a 3-column table with named c
 
 **B8.** What is the difference between a "topic label" slide headline and a "message headline"? Why does this matter for professional presentations? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 A topic label simply names what a slide is about (e.g., "Revenue Growth" or "Market Analysis") — it gives the audience no information about what the takeaway is. A message headline states the specific finding or argument of that slide as a complete sentence (e.g., "Revenue grew 34% in Q3 driven by enterprise segment expansion" or "Our addressable market is 3x larger in Southeast Asia than in domestic markets"). Message headlines matter because: (1) audiences often scan slides before listening — message headlines communicate the conclusion even to someone who only reads headings; (2) they force the presenter to actually have a point on each slide rather than just a topic; (3) they align the visual and spoken message. This principle applies directly when prompting AI to generate presentation content.
 
 *Marking: 1 mark for clear distinction with examples. 1 mark for the professional rationale.*
@@ -459,7 +459,7 @@ A topic label simply names what a slide is about (e.g., "Revenue Growth" or "Mar
 
 **B9.** A prompt engineer changes one constraint in a prompt and the output quality drops significantly. What should they do next and why? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 They should revert the single change and test the original version again to confirm the change was the cause (not a random variation in model output). This is the "one change at a time" rule of prompt iteration — changing multiple elements simultaneously makes it impossible to identify which change caused the improvement or decline. Once the revert confirms the change was responsible for the drop, they should diagnose WHY that constraint was actually helping (perhaps it was providing implicit context, forcing a specific structure, or preventing a common failure mode) and then try a modified version that preserves the benefit differently. Prompt iteration is a diagnostic discipline, not a trial-and-error process.
 
 *Marking: 1 mark for the revert-and-test protocol. 1 mark for the one-change-at-a-time rationale.*
@@ -468,7 +468,7 @@ They should revert the single change and test the original version again to conf
 
 **B10.** What are two things a prompt must do to minimize the risk of AI hallucination in professional outputs? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 (1) **Instruct the AI to flag uncertainty:** Include an instruction like "If you are uncertain about any fact, explicitly say so rather than stating it confidently" or "Add [VERIFY] next to any statistic or claim that should be independently confirmed." This converts silent hallucination into visible uncertainty that can be caught on review. (2) **Provide the source material in the prompt (RAG principle):** Instead of asking the AI to recall facts from training, paste the relevant document or data and instruct: "Answer using only the information provided. If the answer is not in the provided text, say so." This grounds the output in verifiable sources rather than statistical prediction. Additionally: always independently verify all factual claims, statistics, citations, and names before professional use — no prompt fully eliminates hallucination risk.
 
 *Marking: 1 mark for each clearly explained strategy (2 marks total).*
@@ -483,7 +483,7 @@ They should revert the single change and test the original version again to conf
 
 **C1.** *(6 marks)* You are a data analyst at a retail company. Your manager has asked for a one-page summary of last quarter's performance for a non-technical audience (the leadership team). Write a COMPLETE CRAFT prompt that would generate a high-quality first draft of this summary. Then explain each CRAFT component you included and why you made those specific choices.
 
-**Model Answer:**
+**Answer:**
 
 **Complete CRAFT Prompt:**
 
@@ -531,7 +531,7 @@ defensive, not padded with caveats.
 
 **Original Prompt:** *"Give me information about AI ethics. Make it good."*
 
-**Model Answer:**
+**Answer:**
 
 **Failure Diagnosis:**
 
@@ -584,7 +584,7 @@ Avoid technical jargon — assume readers know finance but not AI.
 
 **C3.** *(6 marks)* Design a "Prompt Quality Scoring Rubric" for evaluating any CRAFT prompt before it is submitted. Your rubric should have at least 5 criteria, each scored 1–5 with clear definitions for each score level. Explain how this rubric would be used in a team setting.
 
-**Model Answer:**
+**Answer:**
 
 **Prompt Quality Rubric — CRAFT Standard**
 
@@ -611,7 +611,7 @@ In a team setting, this rubric would be applied at two points: (1) **Before subm
 
 **C4.** *(6 marks)* Write three versions of a prompt for the same task — one zero-elements prompt (just a question), one partial-CRAFT prompt (3 of 5 elements), and one full-CRAFT prompt (all 5 elements). Task: "Generate a competitive analysis of two companies." Show the expected quality difference in outputs and explain why each version produces what it does.
 
-**Model Answer:**
+**Answer:**
 
 **Version 1 — Zero Elements (Raw Question):**
 ```
@@ -680,7 +680,7 @@ should inform a strategic decision.
 
 **C5.** *(6 marks)* You are onboarding a new colleague who has never used AI tools professionally. Write a one-page "Prompt Engineering Quick-Start Guide" for them, covering: the most important concept, the 3 most common mistakes and how to fix them, and one complete example prompt with explanation. Use what you have learned in Module 1.
 
-**Model Answer:**
+**Answer:**
 
 ---
 

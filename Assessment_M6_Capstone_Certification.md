@@ -220,7 +220,7 @@
 
 **B1.** What distinguishes a Capstone project scope that will succeed from one that will fail? Give one example of each. *(2 marks)*
 
-**Model Answer:** A successful scope is: specific (one well-defined task), achievable (5–10 core prompts), measurable (clear Before/After comparison), and genuinely useful (solves a real problem). A failing scope is: too broad (automating an entire department), vague ("use AI to improve marketing"), unmeasurable (no baseline), or purely theoretical.
+**Answer:** A successful scope is: specific (one well-defined task), achievable (5–10 core prompts), measurable (clear Before/After comparison), and genuinely useful (solves a real problem). A failing scope is: too broad (automating an entire department), vague ("use AI to improve marketing"), unmeasurable (no baseline), or purely theoretical.
 
 **Successful:** "Build a 6-prompt pipeline classifying weekly NPS survey responses — reducing analyst processing from 4 hours to under 30 minutes."
 **Failing:** "Build an AI system that transforms our company's entire customer experience strategy."
@@ -233,7 +233,7 @@ The second is unachievable in the timeframe, unmeasurable, and has no clear star
 
 **B2.** What must a Capstone Reflection Essay demonstrate to score PASS or above? *(2 marks)*
 
-**Model Answer:** Three things: (1) **Honest analysis of failure** — specific acknowledgment of what did NOT work, the root cause, and what was done to address it. A reflection that only describes successes is a project summary, not a reflection. (2) **Genuine learning from doing** — insights that emerge from the actual experience of building and testing, not restatements of course content. "I learned CoT works well for my classification task but produced over-complicated outputs for narrative generation — requiring me to switch to direct instruction" demonstrates real learning. (3) **Specific 'what I would do differently' thinking** — concrete, actionable next steps informed by what the student now knows. This proves learning has translated into improved future capability.
+**Answer:** Three things: (1) **Honest analysis of failure** — specific acknowledgment of what did NOT work, the root cause, and what was done to address it. A reflection that only describes successes is a project summary, not a reflection. (2) **Genuine learning from doing** — insights that emerge from the actual experience of building and testing, not restatements of course content. "I learned CoT works well for my classification task but produced over-complicated outputs for narrative generation — requiring me to switch to direct instruction" demonstrates real learning. (3) **Specific 'what I would do differently' thinking** — concrete, actionable next steps informed by what the student now knows. This proves learning has translated into improved future capability.
 
 *Marking: 1 mark for correctly identifying all 3 dimensions. 1 mark for explaining why each matters to the assessor.*
 
@@ -241,7 +241,7 @@ The second is unachievable in the timeframe, unmeasurable, and has no clear star
 
 **B3.** Design a peer review feedback form for the Capstone session with 5 evaluation criteria. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 CAPSTONE PEER REVIEW FORM
 Reviewer: _____ | Presenter: _____ | Date: _____
@@ -270,7 +270,7 @@ COMMENT STANDARD:
 
 **B4.** Write the 10 Principles of Professional Prompt Engineering a certified graduate must articulate. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 1. **Specificity beats length** — A precise, short prompt outperforms a long, vague one.
 2. **Context enables relevance** — Tell the AI who, what, for whom, and why — every time.
 3. **Format drives usability** — Wrong format = wasted output. Specify structure before content.
@@ -288,7 +288,7 @@ COMMENT STANDARD:
 
 **B5.** What makes a Capstone demonstration effective vs. merely showing outputs? *(2 marks)*
 
-**Model Answer:** An effective demonstration makes prompt engineering skill visible in three ways: (1) **Show prompt alongside output** — the audience sees both simultaneously, understanding that the quality of the result is the product of specific engineering choices. This proves repeatability and skill. (2) **Show a Before/After pair** — what does an unengineered prompt produce vs. your engineered prompt? The contrast demonstrates the VALUE of prompt engineering itself. (3) **Narrate design decisions** — explain WHY each element was included: "I added this negative instruction because the AI defaulted to bullet points, which didn't match the executive narrative format." Narrating decisions demonstrates understanding, not just execution. Showing only impressive outputs is a magic trick — it impresses but proves nothing about skill.
+**Answer:** An effective demonstration makes prompt engineering skill visible in three ways: (1) **Show prompt alongside output** — the audience sees both simultaneously, understanding that the quality of the result is the product of specific engineering choices. This proves repeatability and skill. (2) **Show a Before/After pair** — what does an unengineered prompt produce vs. your engineered prompt? The contrast demonstrates the VALUE of prompt engineering itself. (3) **Narrate design decisions** — explain WHY each element was included: "I added this negative instruction because the AI defaulted to bullet points, which didn't match the executive narrative format." Narrating decisions demonstrates understanding, not just execution. Showing only impressive outputs is a magic trick — it impresses but proves nothing about skill.
 
 *Marking: 1 mark for the show-prompt-alongside-output point. 1 mark for Before/After and narrated decisions.*
 
@@ -296,7 +296,7 @@ COMMENT STANDARD:
 
 **B6.** Design a Before/After comparison framework for a Capstone automating weekly sales pipeline commentary. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 
 | Dimension | Before (Measured — 4 wks pre-build) | After (Measured — 4 wks post-build) | Improvement |
 |-----------|-------------------------------------|-------------------------------------|-------------|
@@ -313,7 +313,7 @@ COMMENT STANDARD:
 
 **B7.** What are the four elements of an effective Capstone opening hook? Write one for an HR interview question generator project. *(2 marks)*
 
-**Model Answer:** Four elements: (1) Specific, relatable problem. (2) Quantified scale/cost. (3) Implied tension (gap between current and possible). (4) Bridge to solution.
+**Answer:** Four elements: (1) Specific, relatable problem. (2) Quantified scale/cost. (3) Implied tension (gap between current and possible). (4) Bridge to solution.
 
 **Example:** "Every time a hiring manager prepares for an interview, they face an invisible problem: they have 30 minutes to design a structured assessment for 4 competencies — for a role they may have posted only twice before. The result: 60% of our interviews rely on the same 5 generic questions that don't differentiate strong candidates from weak ones. Our hiring quality is only as good as our interview questions — and right now, we're leaving signal on the table. What if a complete, competency-specific, legally reviewed interview guide took 4 minutes instead of 4 hours?"
 
@@ -323,7 +323,7 @@ COMMENT STANDARD:
 
 **B8.** How should a presenter respond to: "Can you guarantee your AI solution won't produce biased outputs?" *(2 marks)*
 
-**Model Answer:** This cannot and should not be answered with "yes." The correct four-part response: **(1) Direct honesty:** "No — and I wouldn't claim that. Bias in AI systems is a documented, real risk that cannot be completely eliminated." **(2) What was done:** "My system includes a bias audit sub-prompt that checks every output against 6 documented bias patterns. In 45 test cases, it caught 7 potential issues the first-draft prompt introduced." **(3) The safeguard:** "Every output is reviewed by an HR Business Partner before use. The AI is a drafting assistant, not a gatekeeper." **(4) Remaining honesty:** "What I cannot guarantee is that the audit catches everything — particularly novel bias patterns not in my test cases. This is why human review is non-negotiable in my design."
+**Answer:** This cannot and should not be answered with "yes." The correct four-part response: **(1) Direct honesty:** "No — and I wouldn't claim that. Bias in AI systems is a documented, real risk that cannot be completely eliminated." **(2) What was done:** "My system includes a bias audit sub-prompt that checks every output against 6 documented bias patterns. In 45 test cases, it caught 7 potential issues the first-draft prompt introduced." **(3) The safeguard:** "Every output is reviewed by an HR Business Partner before use. The AI is a drafting assistant, not a gatekeeper." **(4) Remaining honesty:** "What I cannot guarantee is that the audit catches everything — particularly novel bias patterns not in my test cases. This is why human review is non-negotiable in my design."
 
 This response is more credible than a guarantee because intellectual honesty demonstrates genuine understanding of the problem.
 
@@ -333,7 +333,7 @@ This response is more credible than a guarantee because intellectual honesty dem
 
 **B9.** What must a Capstone prompt library contain to qualify as a professional deliverable? *(2 marks)*
 
-**Model Answer:** A professional prompt library is not a folder of text files — it is a documented, governed asset. Each entry must contain: (1) **Unique ID** — for cross-referencing and version tracking. (2) **Task description** — what this prompt does in plain language, so users find it by need. (3) **Technique** — Zero-shot / Few-shot / CoT / Persona / Chain — so users understand the approach. (4) **Version number** — semantic versioning (v2.1.0) showing change history. (5) **Performance record** — success rate, tested inputs, known failure modes — the most decision-critical field. (6) **Iteration history** — what was tried, what failed, what was changed, and why — preventing others from repeating failed approaches. Additionally: a searchable index, folder structure by use case, and retirement criteria for outdated entries.
+**Answer:** A professional prompt library is not a folder of text files — it is a documented, governed asset. Each entry must contain: (1) **Unique ID** — for cross-referencing and version tracking. (2) **Task description** — what this prompt does in plain language, so users find it by need. (3) **Technique** — Zero-shot / Few-shot / CoT / Persona / Chain — so users understand the approach. (4) **Version number** — semantic versioning (v2.1.0) showing change history. (5) **Performance record** — success rate, tested inputs, known failure modes — the most decision-critical field. (6) **Iteration history** — what was tried, what failed, what was changed, and why — preventing others from repeating failed approaches. Additionally: a searchable index, folder structure by use case, and retirement criteria for outdated entries.
 
 *Marking: 1 mark for listing 5+ required fields. 1 mark for the distinction between a library (governed, documented) vs. a folder of prompts.*
 
@@ -341,7 +341,7 @@ This response is more credible than a guarantee because intellectual honesty dem
 
 **B10.** Write a 90-day Post-Certification Development Plan for a marketing professional. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 90-DAY POST-CERTIFICATION PLAN — Marketing Professional
 
@@ -376,7 +376,7 @@ SUCCESS METRICS AT DAY 90:
 
 **C1.** *(6 marks)* Write a complete Problem Definition Document for a Capstone project. All sections must be specific and measurable.
 
-**Model Answer:**
+**Answer:**
 
 ```markdown
 # CAPSTONE PROBLEM DEFINITION DOCUMENT
@@ -427,7 +427,7 @@ Mitigation: Analyst verifies every section against source data before submission
 
 **C2.** *(6 marks)* Design the Build Phase for the Capstone project in C1 — show 5 prompts with CRAFT structure, the quality gate between Prompts 2 and 3, and a measurement framework.
 
-**Model Answer:**
+**Answer:**
 
 **Prompt 1 — Incident Summarization:**
 ```
@@ -518,7 +518,7 @@ Before running Prompt 3, Prompt 2 output must pass:
 
 **C3.** *(6 marks)* Write a complete Responsible AI Assessment for a Capstone project that generates automated job descriptions with a bias audit — covering all four pillars with findings and mitigations.
 
-**Model Answer:**
+**Answer:**
 
 ```markdown
 # RESPONSIBLE AI ASSESSMENT
@@ -610,7 +610,7 @@ risks noted for next iteration. Human review confirmed as effective safeguard.
 
 **C4.** *(6 marks)* Write a complete 10-slide Capstone presentation script (message headline + 3 speaker note sentences per slide) for the Operations Review automation project.
 
-**Model Answer:**
+**Answer:**
 
 **Slide 1 — Title**
 *Headline:* "Automating the Weekly Operations Review: 4.5 Hours to 45 Minutes"
@@ -676,7 +676,7 @@ risks noted for next iteration. Human review confirmed as effective safeguard.
 
 **C5.** *(6 marks)* You are the assessor for a Capstone project. The student submits a project that automates social media caption generation. Using the Capstone assessment rubric, evaluate a strong submission and a weak submission across 5 criteria — showing what distinguishes Pass from Fail.
 
-**Model Answer:**
+**Answer:**
 
 **Capstone Assessment Rubric — 5 Criteria**
 

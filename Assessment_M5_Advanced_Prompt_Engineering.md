@@ -220,7 +220,7 @@
 
 **B1.** Explain the difference between a "sequential pipeline" and a "parallel pipeline." Give a real business example of when each is appropriate. *(2 marks)*
 
-**Model Answer:** A **sequential pipeline** passes the output of Step 1 as input to Step 2, which feeds Step 3 — each step depends on the previous. It is appropriate when steps are logically dependent: you must have your research synthesis before you can write recommendations; you must have your outline before you draft sections. A **parallel pipeline** runs multiple prompts simultaneously on the same source material, then combines all outputs in a final synthesis step. It is appropriate when you want multiple independent perspectives without one influencing another: analyze a business proposal from the CFO's perspective, the COO's perspective, and a skeptical investor's perspective simultaneously, then synthesize the three views. The parallel approach prevents anchoring bias (the first analysis influencing all others) and is faster than running three sequential persona analyses.
+**Answer:** A **sequential pipeline** passes the output of Step 1 as input to Step 2, which feeds Step 3 — each step depends on the previous. It is appropriate when steps are logically dependent: you must have your research synthesis before you can write recommendations; you must have your outline before you draft sections. A **parallel pipeline** runs multiple prompts simultaneously on the same source material, then combines all outputs in a final synthesis step. It is appropriate when you want multiple independent perspectives without one influencing another: analyze a business proposal from the CFO's perspective, the COO's perspective, and a skeptical investor's perspective simultaneously, then synthesize the three views. The parallel approach prevents anchoring bias (the first analysis influencing all others) and is faster than running three sequential persona analyses.
 
 *Marking: 1 mark for clear definitions with correct dependency logic. 1 mark for two appropriate business examples.*
 
@@ -228,7 +228,7 @@
 
 **B2.** What is RAG (Retrieval-Augmented Generation) and why does it solve the hallucination problem better than simply telling the AI "be accurate"? *(2 marks)*
 
-**Model Answer:** RAG grounds the AI's response in externally retrieved, verifiable source material. Instead of asking the AI to recall information from training, the system retrieves the relevant documents (from a knowledge base, database, or search engine) and provides them directly in the prompt as context. The AI is then instructed to answer based only on the provided material. This solves hallucination because: "be accurate" is an instruction with no mechanism — the AI still generates from statistical patterns, and confidence in accuracy doesn't correlate with actual accuracy. RAG gives the AI verified source material to work from — it can only hallucinate by directly contradicting provided text, which is far less common. The retrieval step replaces statistical recall with verified source access. Manual RAG (pasting relevant document sections into the prompt) is available to every practitioner today without any technical infrastructure.
+**Answer:** RAG grounds the AI's response in externally retrieved, verifiable source material. Instead of asking the AI to recall information from training, the system retrieves the relevant documents (from a knowledge base, database, or search engine) and provides them directly in the prompt as context. The AI is then instructed to answer based only on the provided material. This solves hallucination because: "be accurate" is an instruction with no mechanism — the AI still generates from statistical patterns, and confidence in accuracy doesn't correlate with actual accuracy. RAG gives the AI verified source material to work from — it can only hallucinate by directly contradicting provided text, which is far less common. The retrieval step replaces statistical recall with verified source access. Manual RAG (pasting relevant document sections into the prompt) is available to every practitioner today without any technical infrastructure.
 
 *Marking: 1 mark for accurate RAG definition and mechanism. 1 mark for the specific explanation of why it works better than an accuracy instruction.*
 
@@ -236,7 +236,7 @@
 
 **B3.** Write a Python batch processing prompt template that would process 50 customer feedback entries and classify each as Positive / Negative / Neutral with a confidence score. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```python
 import openai
 import time
@@ -301,7 +301,7 @@ Key design elements: temperature=0 for consistent classification, JSON output fo
 
 **B4.** What is "prompt-induced bias" and give two concrete examples of how it can occur in professional use. *(2 marks)*
 
-**Model Answer:** Prompt-induced bias is bias introduced by the prompt itself — through framing, leading language, or unrepresentative examples — that pushes an otherwise neutral model toward a biased output. It is distinct from training data bias (which is outside the prompt engineer's control) because it is directly caused by how the prompt is written. **Example 1 — Framing bias in hiring:** "Review this CV from a candidate who left two previous jobs quickly. Assess their suitability for a senior role." The framing presupposes a negative interpretation of the gaps before the AI reads the CV — producing a negatively biased assessment. A neutral prompt would present the CV without framing. **Example 2 — Unbalanced few-shot examples:** Providing five examples of "effective leadership" that all feature Western, male, formal leadership styles teaches the AI that leadership looks like this — producing evaluations that rate other leadership styles lower. The fix: ensure few-shot examples represent the full diversity of the target category.
+**Answer:** Prompt-induced bias is bias introduced by the prompt itself — through framing, leading language, or unrepresentative examples — that pushes an otherwise neutral model toward a biased output. It is distinct from training data bias (which is outside the prompt engineer's control) because it is directly caused by how the prompt is written. **Example 1 — Framing bias in hiring:** "Review this CV from a candidate who left two previous jobs quickly. Assess their suitability for a senior role." The framing presupposes a negative interpretation of the gaps before the AI reads the CV — producing a negatively biased assessment. A neutral prompt would present the CV without framing. **Example 2 — Unbalanced few-shot examples:** Providing five examples of "effective leadership" that all feature Western, male, formal leadership styles teaches the AI that leadership looks like this — producing evaluations that rate other leadership styles lower. The fix: ensure few-shot examples represent the full diversity of the target category.
 
 *Marking: 1 mark for accurate definition that correctly distinguishes from training bias. 1 mark for two concrete, correctly explained examples.*
 
@@ -309,7 +309,7 @@ Key design elements: temperature=0 for consistent classification, JSON output fo
 
 **B5.** Design a "Responsible AI Checklist" with 6 items that a professional should complete before submitting any AI-generated document for professional use. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 
 | # | Checklist Item | Why It Matters |
 |---|---------------|----------------|
@@ -326,7 +326,7 @@ Key design elements: temperature=0 for consistent classification, JSON output fo
 
 **B6.** What is the "Skeleton-of-Thought" framework? Write a prompt that uses this framework to generate a 6-section industry analysis report. *(2 marks)*
 
-**Model Answer:** Skeleton-of-Thought first generates the complete structural outline of a document (all sections with brief content descriptors), validates the structure with the user, then fills each section independently. This prevents structural drift in long documents and enables parallel section generation for speed. It is ideal for structured reports, whitepapers, and technical documents.
+**Answer:** Skeleton-of-Thought first generates the complete structural outline of a document (all sections with brief content descriptors), validates the structure with the user, then fills each section independently. This prevents structural drift in long documents and enables parallel section generation for speed. It is ideal for structured reports, whitepapers, and technical documents.
 
 **Prompt:**
 ```
@@ -360,7 +360,7 @@ Connect to Section {N-1} with a one-sentence bridge at the start."
 
 **B7.** Explain what "automation ROI" means and describe the four cost categories that must be included in any honest ROI calculation for an AI automation project. *(2 marks)*
 
-**Model Answer:** Automation ROI measures whether the value created by the automated AI workflow exceeds the total cost of building and running it. An honest ROI calculation must include all four cost categories: (1) **Human time cost (current state):** The fully-loaded hourly cost of all people currently performing the task manually, multiplied by hours spent per week, annualized. This is the saving that automation enables. (2) **AI tool cost:** API costs per call (input + output tokens × price per token), multiplied by projected volume, annualized. (3) **Implementation cost (one-time):** Prompt development time, testing, integration with existing systems, team training, and documentation — all valued at the relevant hourly rates. (4) **Ongoing governance cost:** Time spent on quality monitoring, prompt maintenance, model update testing, and exception handling — an often-ignored cost that typically runs 10–20% of implementation annually. Omitting any category (especially governance) systematically overestimates ROI.
+**Answer:** Automation ROI measures whether the value created by the automated AI workflow exceeds the total cost of building and running it. An honest ROI calculation must include all four cost categories: (1) **Human time cost (current state):** The fully-loaded hourly cost of all people currently performing the task manually, multiplied by hours spent per week, annualized. This is the saving that automation enables. (2) **AI tool cost:** API costs per call (input + output tokens × price per token), multiplied by projected volume, annualized. (3) **Implementation cost (one-time):** Prompt development time, testing, integration with existing systems, team training, and documentation — all valued at the relevant hourly rates. (4) **Ongoing governance cost:** Time spent on quality monitoring, prompt maintenance, model update testing, and exception handling — an often-ignored cost that typically runs 10–20% of implementation annually. Omitting any category (especially governance) systematically overestimates ROI.
 
 *Marking: 1 mark for accurate ROI definition in this context. 1 mark for all four cost categories correctly named and briefly explained.*
 
@@ -368,7 +368,7 @@ Connect to Section {N-1} with a one-sentence bridge at the start."
 
 **B8.** What is a "meta-prompt" in Automatic Prompt Engineering (APE), and write one for generating marketing headlines. *(2 marks)*
 
-**Model Answer:** A meta-prompt is a prompt about prompts — it instructs an AI to generate, evaluate, and optimize prompt candidates for a specific task, rather than performing the task directly. APE uses meta-prompts to automate the prompt engineering process itself.
+**Answer:** A meta-prompt is a prompt about prompts — it instructs an AI to generate, evaluate, and optimize prompt candidates for a specific task, rather than performing the task directly. APE uses meta-prompts to automate the prompt engineering process itself.
 
 **Meta-Prompt for Marketing Headlines:**
 ```
@@ -397,7 +397,7 @@ Provide the final 3 recommended prompts as ready-to-use, copy-paste text.
 
 **B9.** What should a prompt library entry contain as a minimum standard? List 6 fields and briefly explain each. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 
 | Field | Purpose |
 |-------|---------|
@@ -416,7 +416,7 @@ Additional valuable fields: author, date created, model tested on, output exampl
 
 **B10.** What is a "Conditional Pipeline" and design one for processing incoming customer emails — routing to different handling paths based on email type. *(2 marks)*
 
-**Model Answer:** A conditional pipeline evaluates the output of one step to determine which path to take next — rather than following a fixed sequence regardless of content. Different outputs trigger different downstream prompts or processes.
+**Answer:** A conditional pipeline evaluates the output of one step to determine which path to take next — rather than following a fixed sequence regardless of content. Different outputs trigger different downstream prompts or processes.
 
 **Design:**
 ```
@@ -455,7 +455,7 @@ IF type == "SPAM":
 
 **C1.** *(6 marks)* Design a complete multi-step AI pipeline for producing a competitive analysis report. Show all pipeline steps, the prompt for each step, and explain the quality gate between each step.
 
-**Model Answer:**
+**Answer:**
 
 **Pipeline: Research → Competitor Profiles → Synthesis → Report**
 
@@ -551,7 +551,7 @@ Do not add information not present in the synthesis input.
 
 **C2.** *(6 marks)* Design an AI prompt library for a 10-person marketing team. Include: folder architecture, metadata standard for each entry, governance process, and a complete sample entry.
 
-**Model Answer:**
+**Answer:**
 
 **Library Architecture:**
 ```
@@ -671,7 +671,7 @@ v2.1.0: Added negative instructions list — eliminated top 5 generic AI pattern
 
 **C3.** *(6 marks)* Explain the four pillars of Responsible AI. For each pillar, describe one specific professional scenario where the pillar is violated and the prompt engineering fix that would address it.
 
-**Model Answer:**
+**Answer:**
 
 **Pillar 1 — Fairness**
 
@@ -742,7 +742,7 @@ Privacy-preserving prompt: "Help me write a PIP for an employee in a [FUNCTION] 
 
 **C4.** *(6 marks)* A company wants to build a Python-based AI automation that processes 200 customer survey responses daily, classifies sentiment, extracts themes, and generates a daily summary report. Design the full system: prompts, Python architecture, quality checks, and governance.
 
-**Model Answer:**
+**Answer:**
 
 **System Overview:**
 ```
@@ -892,7 +892,7 @@ if __name__ == "__main__":
 
 **C5.** *(6 marks)* Write a comprehensive AI Acceptable Use Policy (AUP) for a 200-person professional services firm. Include: purpose, approved uses, prohibited uses, data classification rules, output verification requirements, and consequences.
 
-**Model Answer:**
+**Answer:**
 
 ---
 

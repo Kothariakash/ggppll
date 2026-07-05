@@ -378,7 +378,7 @@
 
 **B1.** Explain the difference between zero-shot and few-shot prompting. When would you choose each? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Zero-shot prompting provides no examples — the AI performs the task relying entirely on its training knowledge. Few-shot prompting provides 1–5 input/output examples that demonstrate the desired pattern before the actual input. Choose zero-shot when: the task is well-understood (summarization, translation, standard formatting) and the model's default behavior matches your need. Choose few-shot when: the output format is unusual or highly specific, you need consistent style or terminology not easily described in words, or the task involves a domain-specific pattern the model hasn't seen frequently. The core trade-off is token efficiency (zero-shot) vs. pattern precision (few-shot).
 
 *Marking: 1 mark for accurate definitions of both. 1 mark for practical selection criteria.*
@@ -387,7 +387,7 @@ Zero-shot prompting provides no examples — the AI performs the task relying en
 
 **B2.** Write a zero-shot CoT prompt for this problem: "A company has 120 employees. 30% work remotely. Of the remote workers, 40% are in the engineering department. How many remote engineers are there?" *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 A company has 120 employees. 30% work remotely. Of the remote workers, 40% are
 in the engineering department. How many remote engineers are there?
@@ -408,7 +408,7 @@ The trigger phrase "Let's think through this step by step" activates zero-shot C
 
 **B3.** Design two few-shot examples for a prompt that classifies customer support tickets into: Technical / Billing / Feature Request / General. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 Classify the following customer support ticket into one of:
 Technical | Billing | Feature Request | General
@@ -436,7 +436,7 @@ The examples cover 3 of 4 classes. A fourth example covering "General" (e.g., "H
 
 **B4.** Your colleague says Chain-of-Thought prompting always makes outputs better. Describe TWO situations where CoT would NOT improve output. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 (1) **Simple factual recall:** "What is the capital of France?" — Adding "Let's think step by step" adds tokens and delay without improving the answer. The model either knows it's Paris or doesn't; a reasoning chain doesn't help. (2) **Creative writing:** "Write a poem about the ocean." Forcing step-by-step reasoning on a creative task introduces analytical rigidity that actually constrains the quality and spontaneity of creative output — the opposite of what's needed. CoT is specifically a tool for multi-step reasoning tasks where intermediate steps affect the correctness of the final answer. Applying it universally wastes tokens and can degrade quality for tasks that don't need it.
 
 *Marking: 1 mark per valid scenario with explanation.*
@@ -445,7 +445,7 @@ The examples cover 3 of 4 classes. A fourth example covering "General" (e.g., "H
 
 **B5.** What is the risk of using only one few-shot example in a sentiment classification prompt? How would you address it? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 A single example teaches the model only one class — it cannot learn the full classification space from one data point. If the only example is "Positive," the model may over-predict Positive for ambiguous inputs because it has no context for what Negative or Neutral looks like in this domain. Additionally, one example may introduce pattern bias: if the example uses formal language, the model may associate the classification with formality rather than content. Fix: include at least one high-quality example per class (minimum 3 for 3-class problems), ensuring examples vary in length, style, and phrasing to prevent pattern memorization on surface features rather than the underlying classification logic.
 
 *Marking: 1 mark for identifying the class imbalance/single class risk. 1 mark for the fix with rationale.*
@@ -454,7 +454,7 @@ A single example teaches the model only one class — it cannot learn the full c
 
 **B6.** Write a Persona Prompt for an AI that will help a finance team write executive-level variance commentary for monthly financial reports. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 You are a senior FP&A (Financial Planning & Analysis) Manager with 15 years of
 experience in management reporting for publicly traded companies. You specialize
@@ -478,7 +478,7 @@ and want insight, not a recitation of the numbers they already have in the table
 
 **B7.** Describe the "One Change at a Time" rule for prompt optimization. Why is it critical? Give an example of what goes wrong when you violate it. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 The "One Change at a Time" rule states that when iterating on a prompt, you should change exactly ONE element per iteration — then test to see if quality improved, declined, or stayed the same. This is critical because it establishes causality: if you change three elements simultaneously and quality improves, you cannot know which change caused the improvement. If quality drops, you cannot identify the cause. You lose the ability to learn from your own iterations. Example violation: A prompt produces outputs that are too generic and too long. A prompt engineer simultaneously adds more context, shortens the task description, and adds a word count constraint. Quality improves — but they don't know if it was the context, the shorter task, or the word limit. The next time they face a similar problem, they must guess again. With one change at a time, each iteration is an experiment that teaches a reusable lesson.
 
 *Marking: 1 mark for clear rule definition and why it matters. 1 mark for a concrete violation example.*
@@ -487,7 +487,7 @@ The "One Change at a Time" rule states that when iterating on a prompt, you shou
 
 **B8.** What is the difference between a "Prompt Library" and a folder of saved prompts? What makes a prompt library professional-grade? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 A folder of saved prompts is an unorganized collection of text files — no metadata, no categorization, no version history, no documented performance. A professional-grade prompt library is a governed, documented asset with: (1) unique IDs and consistent naming, (2) full metadata (technique, version, success rate, last reviewed, author), (3) tested examples with quality scores, (4) iteration history showing what changed and why, (5) a navigable index so any team member can find the right prompt in under 30 seconds, and (6) governance rules for adding, modifying, and retiring entries. The difference is between "a collection of things that worked once" and "institutional knowledge that compounds in value over time."
 
 *Marking: 1 mark for clear distinction. 1 mark for listing key professional-grade characteristics.*
@@ -496,7 +496,7 @@ A folder of saved prompts is an unorganized collection of text files — no meta
 
 **B9.** Explain "Self-Consistency" in Chain-of-Thought prompting. Why does it work? *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 Self-Consistency generates multiple independent reasoning paths for the same problem (typically at temperature 0.5–0.8 to introduce variation) and then takes a majority vote across the final answers from each path. It works because: different reasoning chains make different errors, but correct reasoning chains tend to converge on the same answer. If 7 of 10 reasoning chains reach answer "₹42,000" through different routes, that answer has much stronger reliability than a single chain reaching the same conclusion. It's mathematically similar to ensemble methods in machine learning — diversity of approach reduces systematic error. Self-Consistency is particularly effective for math, logic, and constrained reasoning where there is one objectively correct answer.
 
 *Marking: 1 mark for accurate definition of the mechanism. 1 mark for why it works (diversity → error reduction).*
@@ -505,7 +505,7 @@ Self-Consistency generates multiple independent reasoning paths for the same pro
 
 **B10.** Write a Self-Critique prompt for the following task: evaluating AI-generated marketing copy. *(2 marks)*
 
-**Model Answer:**
+**Answer:**
 ```
 You have just generated the following marketing copy:
 [AI OUTPUT TO EVALUATE]
@@ -539,7 +539,7 @@ Present your FINAL REVISED VERSION only (not the drafts).
 
 **C1.** *(6 marks)* Design a complete few-shot prompt for classifying business emails into five categories: Action Required / FYI Only / Meeting Request / Approval Needed / Spam. Include one example per category. Explain your example selection choices.
 
-**Model Answer:**
+**Answer:**
 
 ```
 You are an executive assistant AI trained to classify incoming business emails
@@ -594,7 +594,7 @@ Output:
 
 **C2.** *(6 marks)* A product manager needs to evaluate 3 proposed feature names for a new mobile app. Design a complete Chain-of-Thought prompt that evaluates each name against 4 criteria: memorability, brand fit, clarity, and competitive differentiation. Show the expected reasoning structure.
 
-**Model Answer:**
+**Answer:**
 
 **Prompt:**
 ```
@@ -642,7 +642,7 @@ REJECT: Which name to eliminate first and the primary reason.
 
 **C3.** *(6 marks)* You are a prompt engineer building a support ticket auto-response system. Design the complete persona (system prompt) for the AI, including: role, capabilities, limitations, escalation triggers, and tone guidelines. Then explain why each element of the persona is necessary.
 
-**Model Answer:**
+**Answer:**
 
 **System Prompt:**
 ```
@@ -704,7 +704,7 @@ TONE GUIDELINES:
 
 **C4.** *(6 marks)* Build a complete Prompt Optimization Case Study. Start with a weak prompt, show 3 iterations with a specific diagnosis and change at each step, and produce a final optimized version. Include quality scores at each stage.
 
-**Model Answer:**
+**Answer:**
 
 **Task:** Generate a LinkedIn post announcing a company's new office opening in Bangalore.
 
@@ -786,7 +786,7 @@ If you're in Bangalore and want to see what we're building — or you know someo
 
 **C5.** *(6 marks)* Explain the concept of "Prompt Decomposition" with a detailed example. Take a complex task, show the single-prompt version (and why it fails), then show the decomposed version with 4 steps. Explain what each step achieves that the single prompt cannot.
 
-**Model Answer:**
+**Answer:**
 
 **Complex Task:** "Analyze our Q3 customer churn data and write a board-ready presentation on what's causing churn, what we should do about it, and what metrics to track going forward."
 

@@ -10,8 +10,8 @@
 │  SESSION 17 of 30  |  1 Hour  |  30% Theory + 70% Hands-On                 │
 │                                                                              │
 │  "HR professionals who use AI don't do less human work.                     │
-│   They do more of it — more conversations, more listening,                  │
-│   more coaching — because AI handles the documents."                        │
+│   They do more of it more conversations, more listening,                  │
+│   more coaching because AI handles the documents."                        │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -85,7 +85,7 @@ PROMPT:
 You are a Talent Acquisition Specialist with expertise in inclusive hiring practices.
 
 Write a job description for the following role. Make it engaging, specific,
-and inclusive — it should attract a diverse, qualified candidate pool.
+and inclusive it should attract a diverse, qualified candidate pool.
 
 Role: [JOB TITLE]
 Department: [DEPARTMENT]
@@ -93,11 +93,11 @@ Level: [Individual Contributor / Manager / Director / VP]
 Location: [CITY / REMOTE / HYBRID]
 Key responsibilities: [LIST 4–6 CORE RESPONSIBILITIES]
 Must-have qualifications: [LIST 3–4 GENUINE REQUIREMENTS]
-Nice-to-have qualifications: [LIST 2–3 PREFERENCES — clearly labeled as preferred]
+Nice-to-have qualifications: [LIST 2–3 PREFERENCES clearly labeled as preferred]
 Culture highlights: [2–3 GENUINE CULTURE POINTS]
 
 Structure:
-1. ROLE HEADLINE (1 sentence — make it exciting and specific)
+1. ROLE HEADLINE (1 sentence make it exciting and specific)
 2. ABOUT THE OPPORTUNITY (2–3 sentences — impact, team, growth potential)
 3. WHAT YOU'LL DO (5–7 bullets — present-tense verbs, specific outcomes)
 4. WHAT YOU BRING (4–5 bullets — must-haves only, each genuinely required)
@@ -177,7 +177,7 @@ Also provide:
 - One "culture fit" question that can be asked consistently (not vague)
 - One question that allows the candidate to showcase something unique
 - A closing question: "What questions do you have for us?"
-  (note: this is always the same — give 3 good answers to watch for)
+  (note: this is always the same give 3 good answers to watch for)
 ```
 
 ### 3.2 Interview Scoring Rubric Generator
@@ -191,11 +191,11 @@ For each of these competencies: [LIST YOUR COMPETENCIES]
 Generate a scoring guide:
 
 COMPETENCY: [NAME]
-1 — DOES NOT MEET: [What a 1-point answer looks like — specific behaviors]
+1 — DOES NOT MEET: [What a 1-point answer looks like specific behaviors]
 2 — PARTIALLY MEETS: [What a 2-point answer looks like]
-3 — MEETS EXPECTATIONS: [What a 3-point answer looks like — this is the bar]
+3 — MEETS EXPECTATIONS: [What a 3-point answer looks like this is the bar]
 4 — EXCEEDS: [What a 4-point answer looks like]
-5 — EXCEPTIONAL: [What a 5-point answer looks like — rare but recognizable]
+5 — EXCEPTIONAL: [What a 5-point answer looks like rare but recognizable]
 
 Also include:
 - A note on what interviewers should avoid (bias traps in scoring)
@@ -212,7 +212,7 @@ Also include:
 THE PROBLEM WITH TRADITIONAL PERFORMANCE REVIEWS:
   ▸ Managers write vague comments: "Good team player," "Meets expectations"
   ▸ Comments reflect recency bias (only remember last 2 months)
-  ▸ Inconsistent language across managers — unfair to employees
+  ▸ Inconsistent language across managers unfair to employees
   ▸ Development-focus is superficial or missing entirely
   ▸ Average manager spends 3–5 hours per review cycle per direct report
 
@@ -237,7 +237,7 @@ Employee context:
   Overall rating: [Exceptional / Exceeds / Meets / Partially Meets / Does Not Meet]
 
 Manager's raw notes about this employee:
-[PASTE YOUR BULLET POINTS — achievements, examples, areas for growth]
+[PASTE YOUR BULLET POINTS achievements, examples, areas for growth]
 
 Write a structured performance review narrative:
 
@@ -261,9 +261,9 @@ SECTION 4 — GOALS FOR NEXT PERIOD (2–3 goals)
   Each goal: SMART format (Specific, Measurable, Achievable, Relevant, Time-bound)
 
 Rules:
-- Specific examples only — no vague phrases like "good team player"
+- Specific examples only no vague phrases like "good team player"
 - Active voice
-- No surprises — only what has been discussed during the year
+- No surprises only what has been discussed during the year
 - Under 500 words total
 - Do not write anything that could not be said directly to the employee
 ```
@@ -354,10 +354,10 @@ Include: 1 "quick win" opportunity for the employee in the first 30 days.
 PROMPT:
 You are an instructional designer creating internal training content.
 
-Design a 1-hour training module on [TOPIC] for [AUDIENCE — role/level].
+Design a 1-hour training module on [TOPIC] for [AUDIENCE role/level].
 
 Learning objectives (what employees will be able to do after this module):
-[LIST 3–4 SPECIFIC BEHAVIORAL OBJECTIVES — "By the end, participants will..."]
+[LIST 3–4 SPECIFIC BEHAVIORAL OBJECTIVES "By the end, participants will..."]
 
 Module structure:
 1. OPENING (5 min): Hook/relevance statement + learning objectives overview
@@ -386,17 +386,17 @@ Format: Facilitator guide — not the slides themselves.
 PROMPT:
 You are an HR Policy Specialist.
 
-Draft a [POLICY NAME] policy for [COMPANY TYPE — e.g., 200-person technology company].
+Draft a [POLICY NAME] policy for [COMPANY TYPE e.g., 200-person technology company].
 
 Policy scope: [WHO THIS APPLIES TO]
 Key requirements we want to enforce: [BULLET LIST YOUR KEY RULES]
 Our company values relevant here: [1–2 VALUES]
-Special considerations: [ANY SPECIFIC CIRCUMSTANCES — e.g., remote teams, multi-state]
+Special considerations: [ANY SPECIFIC CIRCUMSTANCES e.g., remote teams, multi-state]
 
 Policy structure:
-1. PURPOSE (why this policy exists — 1 paragraph)
-2. SCOPE (who it covers — specific and inclusive)
-3. POLICY STATEMENT (the core rules — numbered, clear, unambiguous)
+1. PURPOSE (why this policy exists 1 paragraph)
+2. SCOPE (who it covers specific and inclusive)
+3. POLICY STATEMENT (the core rules numbered, clear, unambiguous)
 4. EMPLOYEE RESPONSIBILITIES (what employees must do)
 5. MANAGER RESPONSIBILITIES (what managers must do)
 6. PROCEDURE (how to handle situations covered by this policy)
@@ -445,7 +445,7 @@ RULE 4: LEGAL REVIEW IS MANDATORY
 
 RULE 5: TRANSPARENCY WITH EMPLOYEES
   If AI tools are used in hiring processes, consider disclosure
-  to candidates — some jurisdictions legally require it.
+  to candidates some jurisdictions legally require it.
 ```
 
 ### 7.2 The HR AI Ethics Checklist
@@ -464,7 +464,7 @@ Before using AI in any HR task, confirm:
 
 ## 8. Real-World Example: Unilever's AI-Assisted Hiring
 
-**Company:** Unilever — global consumer goods company, 148,000+ employees
+**Company:** Unilever global consumer goods company, 148,000+ employees
 
 **The Challenge:** Unilever receives 1.8 million job applications annually. Processing them manually was creating:
 - Long delays (weeks before candidates heard back)
@@ -478,12 +478,12 @@ Unilever deployed an AI-assisted screening process (using HireVue and machine le
 ```
 STAGE 1: Application + online games (AI-analyzed)
   AI assessed: cognitive ability, problem-solving, personality indicators
-  NOT: name, age, school, photo — blind screening
+  NOT: name, age, school, photo blind screening
 
 STAGE 2: Video interview (AI-analyzed)
   Candidate answers standardized questions
   AI analyzed: language, tone, competency indicators
-  NOT replacing human judgment — flagging for human review
+  NOT replacing human judgment flagging for human review
 
 STAGE 3: Human review of AI-shortlisted candidates
   Recruiters reviewed AI recommendations and made final decisions
@@ -500,7 +500,7 @@ STAGE 4: Assessment centre (fully human)
 - Recruiter time on value-add activities increased significantly
 - Candidate satisfaction scores improved (faster process, clearer feedback)
 
-**The Lesson:** AI handled the volume problem. Humans handled the relationship and judgment. The combination was better than either alone — but required careful design to prevent bias amplification.
+**The Lesson:** AI handled the volume problem. Humans handled the relationship and judgment. The combination was better than either alone but required careful design to prevent bias amplification.
 
 **Unilever's caution:** They continuously monitor for bias in AI outputs, run regular audits, and have a human oversight board reviewing the AI's recommendations at aggregate level.
 
@@ -561,7 +561,7 @@ For the same role as Task 1, generate:
 **Q1:** *"How would you use AI responsibly in an HR function?"*
 
 **Strong Answer:**
-"The key principle is that AI handles documents and process structure — humans handle all people decisions. Practically, I use AI to write job descriptions and then run a bias audit prompt to flag exclusionary language before posting. For interviews, AI helps me build structured question banks with behavioral and situational questions and scoring rubrics — which research shows are significantly more predictive than unstructured interviews. For performance reviews, I give AI my bullet-note observations and it produces a structured, specific narrative that I then review, own, and customize. The non-negotiables: I never input identifiable employee data into public AI tools, I never use AI output as the basis for a hiring or termination decision without human review, and I flag all AI-drafted policies for legal review before implementation."
+"The key principle is that AI handles documents and process structure humans handle all people decisions. Practically, I use AI to write job descriptions and then run a bias audit prompt to flag exclusionary language before posting. For interviews, AI helps me build structured question banks with behavioral and situational questions and scoring rubrics which research shows are significantly more predictive than unstructured interviews. For performance reviews, I give AI my bullet-note observations and it produces a structured, specific narrative that I then review, own, and customize. The non-negotiables: I never input identifiable employee data into public AI tools, I never use AI output as the basis for a hiring or termination decision without human review, and I flag all AI-drafted policies for legal review before implementation."
 
 ---
 
@@ -587,9 +587,9 @@ For the same role as Task 1, generate:
 | **Situational Question** | Interview question presenting a hypothetical scenario to assess judgment |
 | **360-Degree Feedback** | Performance input collected from an employee's manager, peers, and direct reports |
 | **Bias Audit** | A systematic review of a document (JD, review, policy) for language that may disadvantage certain groups |
-| **SMART Goal** | Specific, Measurable, Achievable, Relevant, Time-bound — a performance goal framework |
+| **SMART Goal** | Specific, Measurable, Achievable, Relevant, Time-bound a performance goal framework |
 | **30-60-90 Day Plan** | A structured onboarding roadmap for a new employee's first three months |
-| **PII (Personally Identifiable Information)** | Data that can identify a specific individual — must not be entered into public AI tools |
+| **PII (Personally Identifiable Information)** | Data that can identify a specific individual must not be entered into public AI tools |
 
 ---
 

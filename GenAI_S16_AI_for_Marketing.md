@@ -88,7 +88,7 @@ Sample content I love (examples of our best content):
 
 From these examples, define our brand voice across these dimensions:
 1. PERSONALITY (3 adjectives that describe our brand's character)
-2. TONE (formal/casual, warm/professional, serious/playful — be specific)
+2. TONE (formal/casual, warm/professional, serious/playful be specific)
 3. VOCABULARY (words we use, words we NEVER use)
 4. SENTENCE STYLE (long/short, simple/complex, active/passive preference)
 5. WHAT WE STAND FOR (the belief or point of view behind our brand)
@@ -99,7 +99,7 @@ Format this as a Brand Voice Card I can paste into every AI content prompt.
 
 **Example Brand Voice Card (for a sustainable fashion brand):**
 ```
-BRAND VOICE CARD — EarthWeave Clothing
+BRAND VOICE CARD EarthWeave Clothing
 ────────────────────────────────────────────────────────────────
 PERSONALITY: Purposeful, warm, honest (never self-righteous)
 TONE: Conversational and direct. We talk like a smart friend, not a 
@@ -133,7 +133,7 @@ Generate a 2-week social media content calendar for these platforms:
 - LinkedIn (professional, thought leadership)
 - Twitter/X (conversational, newsy)
 
-Our current campaign theme: [THEME — e.g., "Sustainable Living Month"]
+Our current campaign theme: [THEME e.g., "Sustainable Living Month"]
 Key product or message to feature: [PRODUCT/MESSAGE]
 Target audience: [BRIEF AUDIENCE DESCRIPTION]
 
@@ -171,7 +171,7 @@ VARIATION C — EDUCATIONAL / VALUE-ADD:
   Ends with a CTA to save or share.
   Hashtags: 10–15 discovery-focused ones.
 
-Do not use emojis unless specified. [OR: Use emojis sparingly — 1–2 per post]
+Do not use emojis unless specified. [OR: Use emojis sparingly 1–2 per post]
 ```
 
 ### 3.3 LinkedIn Thought Leadership Post
@@ -187,13 +187,13 @@ My personal experience or angle: [1–2 SENTENCES OF YOUR UNIQUE INSIGHT]
 My credibility on this topic: [WHY SHOULD PEOPLE TRUST YOUR VIEW?]
 
 Structure:
-Line 1: Hook — a bold statement, surprising insight, or counterintuitive claim
+Line 1: Hook a bold statement, surprising insight, or counterintuitive claim
 [Line break]
-Lines 2–5: The body — develop your insight with a specific example or data
+Lines 2–5: The body develop your insight with a specific example or data
 [Line break]
 Lines 6–8: 3–4 takeaways OR a short story OR a practical tip
 [Line break]
-Line 9–10: Close — question to invite comments OR a clear call to action
+Line 9–10: Close question to invite comments OR a clear call to action
 
 Rules:
 - No more than 2 hashtags (place at the end)
@@ -237,8 +237,8 @@ Word count target: [1,200 / 1,500 / 2,000 words]
 Audience: [BRIEF DESCRIPTION]
 
 Outline format:
-H1: [FINAL TITLE — SEO-optimized]
-INTRO: (hook + problem + promise — 100 words)
+H1: [FINAL TITLE SEO-optimized]
+INTRO: (hook + problem + promise 100 words)
 H2: [Section 1 title]
   H3: Sub-points
 H2: [Section 2 title]
@@ -256,7 +256,7 @@ PROMPT:
 Draft Section [X]: [SECTION TITLE] of this blog post.
 
 Context: This post is about [TOPIC]. The target keyword is [KEYWORD].
-Audience: [AUDIENCE — their knowledge level, what they care about]
+Audience: [AUDIENCE their knowledge level, what they care about]
 Previous sections have covered: [BRIEF SUMMARY]
 
 Requirements for this section:
@@ -264,7 +264,7 @@ Requirements for this section:
 - 250–300 words
 - At least 1 specific example or data point
 - Conversational but authoritative tone
-- No keyword stuffing — natural language
+- No keyword stuffing natural language
 - End with a transition to the next section: [NEXT SECTION TITLE]
 
 [PASTE ANY RELEVANT NOTES OR RESEARCH FOR THIS SECTION]
@@ -290,7 +290,7 @@ CONCLUSION requirements:
 - Summary: 2–3 sentences summarizing the key takeaways
 - Application: Tell readers what to do FIRST (specific, actionable)
 - CTA: 1 sentence with a clear next step (read X / download Y / comment below)
-- End memorably — not with "In conclusion, as we have seen..."
+- End memorably not with "In conclusion, as we have seen..."
 ```
 
 ---
@@ -313,9 +313,9 @@ Primary competitor differentiator: [HOW YOU'RE BETTER OR DIFFERENT]
 
 For each variation (label A–E):
 - HEADLINE (under 30 characters for Google / 40 for Facebook)
-- SUBHEADLINE (optional — under 90 characters)
+- SUBHEADLINE (optional under 90 characters)
 - BODY COPY (under 125 characters for Facebook / 90 for Google)
-- CTA BUTTON TEXT (under 20 characters — be specific, not just "Learn More")
+- CTA BUTTON TEXT (under 20 characters be specific, not just "Learn More")
 
 TEST VARIABLES:
   A: Benefit-led headline
@@ -337,19 +337,19 @@ Write a 5-email welcome sequence for new subscribers to [BRAND/NEWSLETTER].
 
 Subscriber context: They signed up because [LEAD MAGNET / REASON].
 What they want: [THEIR PRIMARY GOAL IN SUBSCRIBING]
-What we want: [YOUR CONVERSION GOAL — purchase / trial / download]
+What we want: [YOUR CONVERSION GOAL purchase / trial / download]
 
 EMAIL SEQUENCE:
 Email 1 (Immediately after signup): Welcome + deliver the lead magnet + set expectations
 Email 2 (Day 2): Share your most valuable piece of free content
 Email 3 (Day 4): Tell your brand story / founding story
-Email 4 (Day 6): Social proof — a customer success story
-Email 5 (Day 8): Soft offer — introduce the product with a reason to try it now
+Email 4 (Day 6): Social proof a customer success story
+Email 5 (Day 8): Soft offer introduce the product with a reason to try it now
 
 For each email:
 - Subject line (include a low-open-rate backup option)
 - Preview text (under 90 characters)
-- Email body (under 200 words — concise!)
+- Email body (under 200 words concise!)
 - One clear CTA per email
 
 Tone: [FROM BRAND VOICE CARD]. No pressure. Build trust first.
@@ -357,7 +357,7 @@ Tone: [FROM BRAND VOICE CARD]. No pressure. Build trust first.
 
 ---
 
-## 6. Content Repurposing — One Piece, Multiple Formats
+## 6. Content Repurposing One Piece, Multiple Formats
 
 ### 6.1 The Repurposing Multiplier
 
@@ -384,13 +384,13 @@ ONE BLOG POST (2,000 words) → AI REPURPOSING CREATES:
 PROMPT:
 I have this piece of content: [PASTE YOUR BLOG POST / ARTICLE / TRANSCRIPT]
 
-Repurpose it into the following formats. For each, adapt — do not just copy:
+Repurpose it into the following formats. For each, adapt do not just copy:
 
 1. LINKEDIN POST (250 words, professional framing, assertion-based hook)
 2. TWITTER THREAD (10 tweets, numbered, each under 280 chars, thread starter + 8 insights + call to action)
 3. EMAIL NEWSLETTER EXCERPT (150 words, conversational, ends with link and CTA)
 4. 5-SLIDE CAROUSEL OUTLINE (Slide 1: hook, Slides 2–4: key points, Slide 5: CTA)
-5. 3 STAND-ALONE QUOTE GRAPHICS (each under 20 words — a powerful, shareable sentence)
+5. 3 STAND-ALONE QUOTE GRAPHICS (each under 20 words a powerful, shareable sentence)
 
 [PASTE BRAND VOICE CARD]
 Maintain voice consistency across all formats. Adapt for platform, not just copy-paste.
@@ -436,7 +436,7 @@ WORKFLOW:
 | Team size | 2 people | 2 people | Unchanged |
 | Content quality score | 3.6/5 | 4.1/5 | +14% |
 
-**Why quality improved:** With AI handling first drafts, the team spent their time on editing, strategy, and creative direction — higher-value work that directly improved content quality and brand consistency.
+**Why quality improved:** With AI handling first drafts, the team spent their time on editing, strategy, and creative direction higher-value work that directly improved content quality and brand consistency.
 
 ---
 
@@ -495,12 +495,12 @@ Compare: Does the repurposed content feel native to each format?
 
 ---
 
-## 9. Interview Questions — Session 16
+## 9. Interview Questions Session — 16
 
 **Q1:** *"How would you use AI in a marketing role?"*
 
 **Strong Answer:**
-"My approach starts with codifying the brand voice — I build a Brand Voice Card from existing best-performing content so AI consistently produces on-brand output rather than generic text. Then I use AI across the content lifecycle: social media calendars, platform-specific captions, blog post drafting using a multi-step SEO workflow, email sequences, and ad copy variations for A/B testing. The highest-value use case is content repurposing — taking one well-researched long-form piece and converting it into 8–10 different formats using AI, which multiplies content velocity without multiplying headcount. I always verify facts, maintain brand standards, and treat AI output as a first draft that needs my strategic and creative judgment to become publish-ready."
+"My approach starts with codifying the brand voice I build a Brand Voice Card from existing best-performing content so AI consistently produces on-brand output rather than generic text. Then I use AI across the content lifecycle: social media calendars, platform-specific captions, blog post drafting using a multi-step SEO workflow, email sequences, and ad copy variations for A/B testing. The highest-value use case is content repurposing taking one well-researched long-form piece and converting it into 8–10 different formats using AI, which multiplies content velocity without multiplying headcount. I always verify facts, maintain brand standards, and treat AI output as a first draft that needs my strategic and creative judgment to become publish-ready."
 
 ---
 
@@ -539,7 +539,7 @@ Compare: Does the repurposed content feel native to each format?
 │  SESSION 16 SUMMARY — WHAT TO REMEMBER                                       │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│  ✓  Brand Voice Card first — AI without it produces generic content         │
+│  ✓  Brand Voice Card first AI without it produces generic content         │
 │  ✓  Social: adapt for platform, don't just copy-paste across channels       │
 │  ✓  Blog: 4-step workflow (keywords → outline → sections → intro/conclusion)│
 │  ✓  Ad copy: 5 variations, test different headline types                    │

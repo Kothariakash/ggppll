@@ -61,7 +61,7 @@ EXAMPLE:
 
 ### 1.2 The Anatomy of an Automation
 
-Every automation — simple or complex — has these three parts:
+Every automation — simple or complex has these three parts:
 
 ```
 TRIGGER → ACTION(S) → RESULT
@@ -369,7 +369,7 @@ ACTION 2 (AI Narrative):
   3. Lead generation vs target (2 sentences)
   4. One priority action for next week (1 sentence)
   
-  Professional, direct tone. Use the numbers above — do not make up data."
+  Professional, direct tone. Use the numbers above do not make up data."
 
 ACTION 3 (Send):
   Email to marketing_team@company.com
@@ -534,7 +534,7 @@ Test the Zap with a real email. Document:
 **Q1:** *"How would you use automation to make an AI solution scale beyond one-time use?"*
 
 **Strong Answer:**
-"The key distinction I make is between one-time prompting and automated AI workflows. A prompt requires my time every use — an automation runs automatically every time the trigger fires. My approach is to identify tasks that are high-frequency, time-consuming, and structurally repetitive — these are the automation candidates. I design workflows in three parts: the trigger (what event starts it), the AI action (what processing happens, with a carefully designed prompt), and the result (where the output goes — email draft, CRM entry, Slack notification). I use Zapier for quick no-code automations, Make.com for complex multi-step flows, and Power Automate when the organization runs on Microsoft 365. For a mid-size team, automating just 3–4 high-frequency tasks typically saves 20–30 hours per person per month — without increasing headcount."
+"The key distinction I make is between one-time prompting and automated AI workflows. A prompt requires my time every use an automation runs automatically every time the trigger fires. My approach is to identify tasks that are high-frequency, time-consuming, and structurally repetitive these are the automation candidates. I design workflows in three parts: the trigger (what event starts it), the AI action (what processing happens, with a carefully designed prompt), and the result (where the output goes email draft, CRM entry, Slack notification). I use Zapier for quick no-code automations, Make.com for complex multi-step flows, and Power Automate when the organization runs on Microsoft 365. For a mid-size team, automating just 3–4 high-frequency tasks typically saves 20–30 hours per person per month without increasing headcount."
 
 ---
 

@@ -61,7 +61,7 @@ PRIORITY 1 — THE CORE PROMPT (most important):
   This is the heart of your solution. Build it first, refine it most.
 
 PRIORITY 2 — THE INPUT/OUTPUT CHAIN:
-  Whatever comes before and after the core prompt — the full pipeline flow.
+  Whatever comes before and after the core prompt the full pipeline flow.
   Build so a user can go from raw input to final output end-to-end.
 
 PRIORITY 3 — SUPPORTING PROMPTS:
@@ -69,7 +69,7 @@ PRIORITY 3 — SUPPORTING PROMPTS:
   Important but secondary to the core.
 
 PRIORITY 4 — AUTOMATION AND INTEGRATION:
-  If your solution includes Zapier workflows or Custom GPT configuration —
+  If your solution includes Zapier workflows or Custom GPT configuration
   these come after the prompt logic is proven to work manually.
 
 PRIORITY 5 — POLISH:
@@ -90,7 +90,7 @@ PRODUCTION-READY PROMPT CHECKLIST:
 
 ☐ CRAFT COMPLETE: Context, Role, Action, Format, Tone — all specified
 ☐ PLACEHOLDERS CLEAR: Every variable clearly marked as [PLACEHOLDER]
-   in square brackets — user knows exactly what to replace
+   in square brackets user knows exactly what to replace
 ☐ OUTPUT ANCHORED: Format is explicitly specified (bullet list / table /
    paragraphs / numbered steps) — AI knows the exact structure to produce
 ☐ CONSTRAINTS INCLUDED: Length, exclusions, rules for edge cases
@@ -265,7 +265,7 @@ BUILD TASK 4 — Tool Configuration:
 BUILD TASK 5 — Quality Comparison:
   Compare your pipeline output to what the same work would produce:
   (a) without AI, (b) with basic AI prompting without the pipeline.
-  Document the difference — this is your presentation evidence.
+  Document the difference this is your presentation evidence.
 ```
 
 ---
@@ -489,7 +489,7 @@ OBSERVATION BULLETS:
 - Mentored 2 junior devs — both passed their first code reviews independently
 - Missed 2 sprint planning sessions without notice in Q2 (addressed in 1:1)
 - Proactively documented the new authentication module (saved team onboarding time)
-- Communication with product team could be clearer — sometimes misaligned on requirements
+- Communication with product team could be clearer sometimes misaligned on requirements
 - Reduced API response time by 40% through caching optimization (flagged by CTO)
 ```
 
@@ -505,7 +505,7 @@ KEY STRENGTHS
 The most significant strength demonstrated this quarter was technical ownership
 and delivery discipline. Leading the API migration project, [Employee Name]
 not only delivered three weeks ahead of schedule but did so with zero production
-incidents — a result that reflects exceptional planning, testing rigour, and
+incidents a result that reflects exceptional planning, testing rigour, and
 cross-team coordination. This project outcome directly reduced the risk of
 service disruption and was recognized at the CTO level as a model delivery.
 
@@ -578,7 +578,7 @@ DOCUMENTATION (5 min):
 **Q1:** *"How do you ensure the quality of prompts you build for professional use?"*
 
 **Strong Answer:**
-"I apply a 6-dimension quality rubric to every production prompt before deploying it — scoring context, specificity of action, format specification, tone and voice, constraints and guardrails, and testability, on a scale of 1–5 each. A score below 20 out of 30 means the prompt needs revision before use. Beyond the rubric, I test every prompt with at least three realistic inputs — including imperfect or ambiguous inputs that real users would actually provide, not just clean test cases. I document each prompt with its purpose, version, variables, expected output, and quality score, so anyone on my team can understand and use it without needing me to explain it. The documentation also makes it easy to iterate — when a prompt underperforms in production, I can quickly identify which dimension to improve."
+"I apply a 6-dimension quality rubric to every production prompt before deploying it scoring context, specificity of action, format specification, tone and voice, constraints and guardrails, and testability, on a scale of 1–5 each. A score below 20 out of 30 means the prompt needs revision before use. Beyond the rubric, I test every prompt with at least three realistic inputs including imperfect or ambiguous inputs that real users would actually provide, not just clean test cases. I document each prompt with its purpose, version, variables, expected output, and quality score, so anyone on my team can understand and use it without needing me to explain it. The documentation also makes it easy to iterate when a prompt underperforms in production, I can quickly identify which dimension to improve."
 
 ---
 

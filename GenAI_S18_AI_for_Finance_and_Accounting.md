@@ -62,7 +62,7 @@ By the end of Session 18, you will be able to:
 
 ### 2.1 The Management Commentary / Business Review
 
-The monthly management commentary — explaining what happened financially and why — is one of the most time-consuming tasks in finance. AI excels at this.
+The monthly management commentary explaining what happened financially and why is one of the most time-consuming tasks in finance. AI excels at this.
 
 **Step 1: Provide your numbers (you do this)**
 ```
@@ -82,7 +82,7 @@ You are a Chief Financial Officer writing a monthly management commentary
 for the Board of Directors. Translate these financial results into a clear,
 insightful narrative that explains performance and drives decisions.
 
-FINANCIAL DATA (All numbers I am providing — do not generate any numbers):
+FINANCIAL DATA (All numbers I am providing do not generate any numbers):
 [PASTE YOUR NUMBERS AND CONTEXT]
 
 Write a management commentary with these sections:
@@ -164,7 +164,7 @@ Structure:
 5. BOARD FOCUS ITEMS (2 bullets): What needs Board attention or decision
 
 Rules:
-- Every number from my data — do not invent any figures
+- Every number from my data do not invent any figures
 - Business-language, not accounting language
 - Lead with the conclusion in every bullet (assertion format)
 - Under 300 words
@@ -177,7 +177,7 @@ Rules:
 
 ### 3.1 Excel Formula Generator
 
-One of the most practical immediate uses of AI — generating complex Excel formulas on demand:
+One of the most practical immediate uses of AI generating complex Excel formulas on demand:
 
 ```
 PROMPT:
@@ -217,7 +217,7 @@ PROMPT:
 Write a Python script to perform the following financial analysis task:
 
 Task: [DESCRIBE WHAT YOU NEED TO DO]
-Data available: [DESCRIBE YOUR DATA — columns, format, size]
+Data available: [DESCRIBE YOUR DATA columns, format, size]
 Desired output: [WHAT SHOULD THE SCRIPT PRODUCE]
 
 Requirements:
@@ -296,7 +296,7 @@ PROMPT:
 You are a CFO who is excellent at explaining financial concepts to non-financial
 audiences without dumbing them down.
 
-Explain [FINANCIAL CONCEPT] to [AUDIENCE — e.g., a marketing team, new employees,
+Explain [FINANCIAL CONCEPT] to [AUDIENCE e.g., a marketing team, new employees,
 a board member with no finance background].
 
 Requirements:
@@ -337,10 +337,10 @@ Write a model assumption log for this financial model:
 
 For each assumption, document:
 ASSUMPTION: [The assumption stated clearly]
-BASIS: [Why this assumption was chosen — market data, management judgment, historical trend]
-SENSITIVITY: HIGH / MEDIUM / LOW — how much does the output change if this is wrong?
+BASIS: [Why this assumption was chosen market data, management judgment, historical trend]
+SENSITIVITY: HIGH / MEDIUM / LOW how much does the output change if this is wrong?
 RISK: If this assumption proves incorrect, the effect would be: [DESCRIBE]
-SOURCE: [Where this data came from — flag as [VERIFY] if not confirmed]
+SOURCE: [Where this data came from flag as [VERIFY] if not confirmed]
 
 Format as a table.
 After the table, write a 2-sentence "Model Limitations" statement for the front page.
@@ -355,14 +355,14 @@ After the table, write a 2-sentence "Model Limitations" statement for the front 
 Build once, reuse every month with updated numbers:
 
 ```
-PROMPT (TEMPLATE — save in your prompt library):
+PROMPT (TEMPLATE save in your prompt library):
 
-[MONTHLY MANAGEMENT REPORT TEMPLATE — ID: FIN-001]
+[MONTHLY MANAGEMENT REPORT TEMPLATE ID: FIN-001]
 
 You are the CFO of [COMPANY TYPE]. Write the monthly management report commentary 
 for [MONTH YEAR].
 
-All numbers below are final and verified — use them exactly as provided:
+All numbers below are final and verified use them exactly as provided:
 
 INCOME STATEMENT HIGHLIGHTS:
   Revenue: Actual [___] | Budget [___] | Prior Year [___]
@@ -396,7 +396,7 @@ Board-level tone. Specific. No numbers beyond what I provided.
 
 ## 6. Real-World Example: JP Morgan's AI in Finance
 
-**Company:** JPMorgan Chase — global financial services firm, $4+ trillion in assets
+**Company:** JPMorgan Chase global financial services firm, $4+ trillion in assets
 
 **The COIN Platform (Contract Intelligence):**
 JPMorgan built an AI platform called COIN (Contract Intelligence) to analyze commercial loan agreements.
@@ -440,7 +440,7 @@ JPMorgan has deployed AI for:
 **Duration:** 25 minutes  
 **Tool:** ChatGPT
 
-*Use fictional or sample data throughout — never real company financial data in public AI tools.*
+*Use fictional or sample data throughout never real company financial data in public AI tools.*
 
 ---
 
@@ -505,7 +505,7 @@ Review: Does the formula look correct? (CAGR = (End/Start)^(1/years) - 1)
 **Q1:** *"How do you use AI in your finance work, and what limits do you apply?"*
 
 **Strong Answer:**
-"The fundamental rule in finance AI is that I provide the numbers and AI writes about them — never the reverse. AI excels at financial narrative writing: I paste in my verified actuals vs. budget vs. prior year, explain the key drivers, and AI produces a management commentary that would take me 2 hours to write in 5 minutes. I use AI heavily for formula and code generation — Excel formulas, Python data manipulation scripts, SQL queries — which I then verify before relying on. For explaining financial concepts to non-financial stakeholders, AI is invaluable for finding plain-language analogies that resonate. The firm limits: no real financial data in public AI tools, no AI-generated numbers in financial reports without verification, and no AI involvement in audit conclusions or regulatory filings."
+"The fundamental rule in finance AI is that I provide the numbers and AI writes about them never the reverse. AI excels at financial narrative writing: I paste in my verified actuals vs. budget vs. prior year, explain the key drivers, and AI produces a management commentary that would take me 2 hours to write in 5 minutes. I use AI heavily for formula and code generation Excel formulas, Python data manipulation scripts, SQL queries which I then verify before relying on. For explaining financial concepts to non-financial stakeholders, AI is invaluable for finding plain-language analogies that resonate. The firm limits: no real financial data in public AI tools, no AI-generated numbers in financial reports without verification, and no AI involvement in audit conclusions or regulatory filings."
 
 ---
 
@@ -517,7 +517,7 @@ Review: Does the formula look correct? (CAGR = (End/Start)^(1/years) - 1)
 4. How would you use AI to write a Board Pack Executive Summary? What data must you provide?
 5. Why is explaining financial concepts to non-financial stakeholders a high-value AI use case?
 6. What is an assumption log in a financial model? What does AI help document?
-7. Describe JPMorgan's COIN platform — what did it do, what were the results, and what did humans still do?
+7. Describe JPMorgan's COIN platform what did it do, what were the results, and what did humans still do?
 8. List 5 specific things AI should NEVER do in a finance context, and explain the risk each poses.
 
 ---
@@ -526,15 +526,15 @@ Review: Does the formula look correct? (CAGR = (End/Start)^(1/years) - 1)
 
 | Term | Definition |
 |------|-----------|
-| **Management Commentary** | Narrative explanation of financial results for management/board — the "story behind the numbers" |
+| **Management Commentary** | Narrative explanation of financial results for management/board the "story behind the numbers" |
 | **Variance Analysis** | Examination of the difference between actual and budgeted financial performance |
 | **Board Pack** | Monthly/quarterly financial reporting package prepared for the Board of Directors |
-| **EBITDA** | Earnings Before Interest, Taxes, Depreciation and Amortization — a measure of operating profitability |
+| **EBITDA** | Earnings Before Interest, Taxes, Depreciation and Amortization a measure of operating profitability |
 | **Financial Narrative** | Written explanation of financial data designed for decision-making audiences |
 | **Assumption Log** | Documentation of the key assumptions underlying a financial model |
-| **DSO / DPO** | Days Sales Outstanding / Days Payable Outstanding — working capital efficiency metrics |
-| **CAGR** | Compound Annual Growth Rate — the annualized growth rate of an investment over a period |
-| **COIN (JPMorgan)** | Contract Intelligence — AI platform that analyzes commercial loan agreements |
+| **DSO / DPO** | Days Sales Outstanding / Days Payable Outstanding working capital efficiency metrics |
+| **CAGR** | Compound Annual Growth Rate the annualized growth rate of an investment over a period |
+| **COIN (JPMorgan)** | Contract Intelligence AI platform that analyzes commercial loan agreements |
 
 ---
 
@@ -548,7 +548,7 @@ Review: Does the formula look correct? (CAGR = (End/Start)^(1/years) - 1)
 │  ✓  Golden Rule: YOU provide numbers → AI writes narrative                  │
 │  ✓  Never: AI generates financial numbers for a report                      │
 │  ✓  Financial narrative: management commentary, variance analysis, board pack│
-│  ✓  Formulas/code: Excel, Python, SQL — generate and verify before use     │
+│  ✓  Formulas/code: Excel, Python, SQL generate and verify before use     │
 │  ✓  Concept translation: AI bridges finance to non-finance audiences        │
 │  ✓  Assumption logs: document every model assumption with AI assistance     │
 │  ✓  No real financial data in public AI tools (confidentiality)             │

@@ -272,9 +272,9 @@ DIRECT: "Three things."
 EVIDENCE: "[1]: I would conduct user testing earlier — ideally before building, 
 not after. I found usability issues in Session 28 that would have shaped my design 
 decisions if I'd known about them earlier.
-[2]: I would invest more time in stress testing edge cases from the start — 
+[2]: I would invest more time in stress testing edge cases from the start 
 my prompt needed two revision cycles to handle incomplete inputs gracefully.
-[3]: I would define the success metrics more precisely before building — my 
+[3]: I would define the success metrics more precisely before building my 
 initial metric of 'saves time' was too vague; the final '67% reduction' 
 only emerged because I forced myself to measure it."
 ACKNOWLEDGMENT: "These are the exact lessons that turn a first project into 
@@ -307,7 +307,7 @@ USING YOUR CAPSTONE PROFESSIONALLY:
   ✓ Add to your resume: "Built an AI-powered [solution name] that [result]"
   ✓ Add to LinkedIn: "Completed Professional Generative AI Applications
     Certification. Capstone project: [brief description + result]"
-  ✓ Use your solution in your actual work — it was built for this
+  ✓ Use your solution in your actual work it was built for this
   ✓ Bring your prompt library and system designs to your workplace
 ```
 
@@ -545,7 +545,7 @@ QUESTION 2 — WHO WILL YOU SHARE THIS WITH?
 
 QUESTION 3 — WHAT IS YOUR AI EDGE?
   Every professional in your field will eventually have AI access.
-  Your edge is not the tool — it is the judgment, design skill,
+  Your edge is not the tool it is the judgment, design skill,
   and responsible practice you have developed.
   How will you keep developing it?
 ```
@@ -599,7 +599,7 @@ QUESTION 3 — WHAT IS YOUR AI EDGE?
 **Q1:** *"Tell me about your AI certification. What was the most important thing you learned?"*
 
 **Strong Answer:**
-"I completed the Professional Generative AI Applications certification — a 30-session program covering AI foundations, prompt engineering, business applications across five functions, creative AI and automation, and a capstone project. The most important thing I learned isn't a tool or a technique — it's a design mindset. I learned to start with the problem: define it precisely using a structured canvas, identify the root cause rather than the symptom, and then select the right AI tools for the job. My capstone was [DESCRIBE YOUR PROJECT] — which [DESCRIBE YOUR RESULT]. The discipline of building something and then systematically testing it against real-world inputs — including adversarial tests, incomplete inputs, and usability tests with actual users — that's what separates a professional AI practitioner from someone who just uses ChatGPT occasionally. I now apply that discipline to every AI tool I use professionally."
+"I completed the Professional Generative AI Applications certification — a 30-session program covering AI foundations, prompt engineering, business applications across five functions, creative AI and automation, and a capstone project. The most important thing I learned isn't a tool or a technique it's a design mindset. I learned to start with the problem: define it precisely using a structured canvas, identify the root cause rather than the symptom, and then select the right AI tools for the job. My capstone was [DESCRIBE YOUR PROJECT] which [DESCRIBE YOUR RESULT]. The discipline of building something and then systematically testing it against real-world inputs including adversarial tests, incomplete inputs, and usability tests with actual users that's what separates a professional AI practitioner from someone who just uses ChatGPT occasionally. I now apply that discipline to every AI tool I use professionally."
 
 ---
 
@@ -627,7 +627,7 @@ QUESTION 3 — WHAT IS YOUR AI EDGE?
 | **Evaluator Q&A** | The 5-minute structured question period following the 10-minute capstone presentation |
 | **Reflection Questions** | Three post-certification questions: What will you build next? Who will you share this with? What is your AI edge? |
 | **RAG (Retrieval Augmented Generation)** | A technique for grounding AI responses in specific documents — the next level of AI development |
-| **Portfolio Piece** | A professional work sample — the capstone project serves as an AI portfolio piece for career development |
+| **Portfolio Piece** | A professional work sample the capstone project serves as an AI portfolio piece for career development |
 
 ---
 

@@ -22,7 +22,7 @@ By the end of Session 15, you will be able to:
 
 - Audit your current professional workflow and identify the highest-value AI integration points
 - Design a daily AI workflow tailored to your role and responsibilities
-- Build a personal "AI Stack" — the specific tools for each task type
+- Build a personal "AI Stack"  the specific tools for each task type
 - Measure and track the productivity impact of AI adoption
 - Create a 30-day AI habit formation plan
 - Articulate your AI productivity approach in professional settings
@@ -216,12 +216,12 @@ TEMPLATE: MY PERSONAL AI STACK
 
 DAILY COMMUNICATION:
   Primary: [ChatGPT / Copilot / Gemini]
-  Why: [Reason — e.g., Copilot because I work in Outlook/Teams]
+  Why: [Reason  e.g., Copilot because I work in Outlook/Teams]
   Backup: [Second tool for when primary fails or is unavailable]
 
 DOCUMENT CREATION:
   Primary: [ChatGPT / Claude]
-  Why: [Reason — e.g., Claude for long documents, 200K context]
+  Why: [Reason  e.g., Claude for long documents, 200K context]
   Backup:
 
 RESEARCH:
@@ -382,11 +382,11 @@ WEEK 4 — MEASUREMENT AND HABIT LOCK-IN:
 
 **Business outcome:**
 - Promoted to Director within 12 months (management cited his "strategic thinking and breadth of output")
-- Built team's AI capability — his team of 6 each now saves 6–8 hours/week
+- Built team's AI capability  his team of 6 each now saves 6–8 hours/week
 - Team recognized for highest-quality quarterly presentations in the division
 
 **Arjun's reflection:**
-*"AI didn't make me smarter. It removed the work that was preventing me from being as smart as I already was. The emails, the formatting, the first drafts — that was never my competitive advantage. My judgment was. AI let me spend my time on judgment."*
+*"AI didn't make me smarter. It removed the work that was preventing me from being as smart as I already was. The emails, the formatting, the first drafts  that was never my competitive advantage. My judgment was. AI let me spend my time on judgment."*
 
 ---
 
@@ -441,7 +441,7 @@ Justify every tool choice with a specific reason.
 
 ### Step 3: 30-Day Plan Draft (10 minutes)
 Write your personal 30-Day AI Adoption Plan.
-Week-by-week — be specific about tasks, not just intentions.
+Week-by-week  be specific about tasks, not just intentions.
 "Use AI more" is not a plan. "Build email follow-up prompt and use it 3×/day" is a plan.
 
 ### Step 4: Commit and Share (5 minutes)
@@ -456,16 +456,16 @@ Share 1 sentence with the class.
 |-------------|-------|
 | Time audit completed with 5 integration points identified | 3 |
 | AI Stack filled out with justified tool choices | 3 |
-| 30-Day Plan — week-by-week with specific actions | 3 |
+| 30-Day Plan  week-by-week with specific actions | 3 |
 | 6-month vision statement (1 sentence) | 1 |
 | **Total** | **10** |
 
 ---
 
-## 10. Module 3 Review — What You Can Now Do
+## 10. Module 3 Review  What You Can Now Do
 
 ```
-MODULE 3: AI FOR PRODUCTIVITY — CAPABILITY SUMMARY
+MODULE 3: AI FOR PRODUCTIVITY  CAPABILITY SUMMARY
 
 SESSION 11 ✓ AI for Professional Email
   → 8 email types with production-ready prompt templates
@@ -504,12 +504,12 @@ SESSION 15 ✓ AI Productivity System
 **Q1:** *"How do you incorporate AI into your daily professional workflow?"*
 
 **Strong Answer:**
-"I treat AI as a productivity system, not a one-off tool. My day starts with an AI-assisted email triage — for complex emails I paste into ChatGPT and get a draft reply in 2 minutes instead of 15. For writing tasks, I have a prompt library of 20+ tested templates organized by task type — so I never start from a blank page. For research, I use a Perplexity-then-ChatGPT workflow: Perplexity gives me current facts with citations, and I paste those verified facts into ChatGPT for deep synthesis and drafting. I track time saved weekly — I'm currently saving about 10–12 hours per week across email, reports, and research — and I reinvest that time in strategic work that genuinely requires my judgment."
+"I treat AI as a productivity system, not a one-off tool. My day starts with an AI-assisted email triage  for complex emails I paste into ChatGPT and get a draft reply in 2 minutes instead of 15. For writing tasks, I have a prompt library of 20+ tested templates organized by task type  so I never start from a blank page. For research, I use a Perplexity-then-ChatGPT workflow: Perplexity gives me current facts with citations, and I paste those verified facts into ChatGPT for deep synthesis and drafting. I track time saved weekly  I'm currently saving about 10–12 hours per week across email, reports, and research  and I reinvest that time in strategic work that genuinely requires my judgment."
 
 **Q2:** *"What advice would you give someone just starting to integrate AI into their work?"*
 
 **Strong Answer:**
-"Start with your highest-frequency, highest-time-cost task — don't try to transform everything at once. Build one excellent prompt for that task, test it, refine it, and use it every day for two weeks before adding the next. Track your time saved — the numbers will surprise you and motivate you to keep going. Build a prompt library from day one, even if it starts with 3 prompts. And remember the responsible use fundamentals: verify facts, protect confidential data, and always read AI output as if you're the recipient before sending it."
+"Start with your highest-frequency, highest-time-cost task  don't try to transform everything at once. Build one excellent prompt for that task, test it, refine it, and use it every day for two weeks before adding the next. Track your time saved  the numbers will surprise you and motivate you to keep going. Build a prompt library from day one, even if it starts with 3 prompts. And remember the responsible use fundamentals: verify facts, protect confidential data, and always read AI output as if you're the recipient before sending it."
 
 ---
 
@@ -548,15 +548,15 @@ SESSION 15 ✓ AI Productivity System
 │  SESSION 15 SUMMARY — WHAT TO REMEMBER                                       │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│  ✓  Systems thinking > one-off tool use — habits compound                   │
-│  ✓  Time audit first — know where your time goes before designing system    │
+│  ✓  Systems thinking > one-off tool use habits compound                   │
+│  ✓  Time audit first know where your time goes before designing system    │
 │  ✓  AI Stack: min 3 tools, matched to your actual tasks, with justification │
-│  ✓  Measure impact weekly — time saved + quality maintained                 │
+│  ✓  Measure impact weekly time saved + quality maintained                 │
 │  ✓  30-day plan: specific tasks, not intentions                             │
 │  ✓  The goal: more time on judgment, less time on production                │
 │                                                                              │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│  MODULE 3 COMPLETE — YOU CAN NOW USE AI FOR:                                 │
+│  MODULE 3 COMPLETE YOU CAN NOW USE AI FOR:                                 │
 │  ✓ Professional email (all 8 types + editing)                               │
 │  ✓ Business reports, proposals, SOPs, business cases                        │
 │  ✓ Presentations (PSI/SCR structure, assertion titles, Q&A prep)            │
@@ -566,7 +566,7 @@ SESSION 15 ✓ AI Productivity System
 │  NEXT MODULE:                                                                │
 │  Module 4 — Business Applications (Sessions 16–20)                          │
 │  "Domain-specific AI: Marketing, HR, Finance, Customer Support,            │
-│   and Data Analysis — deep applications for your industry"                  │
+│   and Data Analysis deep applications for your industry"                  │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 

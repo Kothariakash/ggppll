@@ -48,7 +48,7 @@ AI-ASSISTED WORKFLOW:
   Total: 50–90 minutes for comparable depth
 
   CRITICAL: The quality of the research depends on you verifying
-  AI outputs against primary sources — especially statistics,
+  AI outputs against primary sources  especially statistics,
   citations, and specific claims.
 ```
 
@@ -74,7 +74,7 @@ Use this as your first prompt for any new research area:
 ```
 PROMPT:
 I am beginning research on: [TOPIC]
-My purpose: [WHY I AM RESEARCHING THIS — professional context]
+My purpose: [WHY I AM RESEARCHING THIS  professional context]
 My background knowledge: [BEGINNER / INTERMEDIATE / EXPERT]
 Time available: [X hours for research]
 
@@ -227,14 +227,14 @@ this clearly rather than presenting it as fact.
 
 ---
 
-## 5. Research with Perplexity AI — Cited, Current Information
+## 5. Research with Perplexity AI Cited, Current Information
 
 ### 5.1 Why Perplexity for Research
 
 ```
 ChatGPT (standard):
   ✓ Great for explanation and synthesis
-  ✗ Knowledge cutoff — no current information
+  ✗ Knowledge cutoff  no current information
   ✗ No source citations in responses
 
 Perplexity AI (perplexity.ai):
@@ -261,7 +261,7 @@ Focus on: [SPECIFIC ASPECT]. Cite your sources.
 
 **For Research Citations:**
 ```
-I need credible sources on [TOPIC] for [PURPOSE — academic paper / business report / presentation].
+I need credible sources on [TOPIC] for [PURPOSE  academic paper / business report / presentation].
 Find 5 high-quality sources published in the last 2 years.
 For each: title, author/organization, date, URL, and 2-sentence summary.
 ```
@@ -335,7 +335,7 @@ Every claim from AI research needs evaluation. Use SIFT:
 ⚠️  Specific percentages without a source (e.g., "73% of companies...")
 ⚠️  Quotations attributed to real people (always verify the actual quote)
 ⚠️  Recent statistics (may be outdated due to knowledge cutoff)
-⚠️  Very precise numbers (e.g., "$47.3 billion market size") — suspiciously precise
+⚠️  Very precise numbers (e.g., "$47.3 billion market size")  suspiciously precise
 ```
 
 ---
@@ -353,9 +353,9 @@ Provide structured competitive intelligence on [COMPANY/MARKET]:
 1. COMPANY OVERVIEW (3–4 sentences: what they do, who they serve, scale)
 2. KNOWN STRENGTHS (3 specific competitive advantages with evidence)
 3. KNOWN WEAKNESSES (3 specific vulnerabilities with evidence)
-4. RECENT STRATEGIC MOVES (product launches, acquisitions, partnerships — last 12 months)
+4. RECENT STRATEGIC MOVES (product launches, acquisitions, partnerships  last 12 months)
 5. MARKET POSITIONING (how they position vs. alternatives)
-6. CUSTOMER PERCEPTION (what customers publicly say — review themes)
+6. CUSTOMER PERCEPTION (what customers publicly say  review themes)
 7. WHAT WE SHOULD WATCH (1–2 emerging threats or opportunities they represent)
 
 For each point: indicate if this is CONFIRMED (public source) or INFERRED (logical assumption)
@@ -366,7 +366,7 @@ Note: I will verify all specific claims before using them professionally.
 
 ```
 PROMPT:
-I am writing a literature review on [TOPIC] for [PURPOSE — MBA thesis / research paper / report].
+I am writing a literature review on [TOPIC] for [PURPOSE  MBA thesis / research paper / report].
 
 Based on your training knowledge, help me map the academic landscape:
 1. The 3–5 most influential theoretical frameworks in this field
@@ -387,10 +387,10 @@ PROMPT:
 You are a market research analyst. Provide a market overview for:
 Industry: [INDUSTRY]
 Geography: [COUNTRY/REGION]
-Purpose: [WHY I NEED THIS — investment decision / market entry / competitive analysis]
+Purpose: [WHY I NEED THIS  investment decision / market entry / competitive analysis]
 
 Cover:
-1. MARKET SIZE AND GROWTH (estimate order of magnitude — note uncertainty)
+1. MARKET SIZE AND GROWTH (estimate order of magnitude  note uncertainty)
 2. KEY PLAYERS (top 5 with brief description of their positioning)
 3. KEY TRENDS (3–4 macro trends shaping this market)
 4. REGULATORY ENVIRONMENT (major regulations affecting the industry)
@@ -398,7 +398,7 @@ Cover:
 6. DISRUPTION RISKS (what could reshape this industry in 5 years?)
 
 For each section: distinguish between widely accepted facts vs. your analysis.
-Flag every statistic as [VERIFY — current figure may differ].
+Flag every statistic as [VERIFY  current figure may differ].
 ```
 
 ---
@@ -481,7 +481,7 @@ Record:
 Use Perplexity AI: "What are the 5 most important recent developments in [YOUR TOPIC]? Cite sources."
 Record:
 - 3 specific facts with source URLs
-- Click through to verify 1 fact against its source — was the AI accurate?
+- Click through to verify 1 fact against its source  was the AI accurate?
 
 ---
 
@@ -520,7 +520,7 @@ Generate a 200-word synthesis that you could use in a business presentation.
 **Q1:** *"How would you use AI to conduct research for a business report?"*
 
 **Strong Answer:**
-"I use a three-tool workflow. First, I use ChatGPT for research orientation — it maps the sub-topics, debates, key players, and limitations of the field in 10 minutes, giving me a research map rather than diving in blind. Second, for current facts and citations, I use Perplexity AI because it searches the live web and cites sources — I then verify the most important claims against the original sources. Third, I use Claude for summarizing long documents, because its 200K context window handles full reports at once. I synthesize across sources using ChatGPT's multi-source synthesis prompt. Throughout, I apply the SIFT framework to evaluate every claim — especially statistics, specific percentages, and any quantitative finding — before including it in professional work."
+"I use a three-tool workflow. First, I use ChatGPT for research orientation — it maps the sub-topics, debates, key players, and limitations of the field in 10 minutes, giving me a research map rather than diving in blind. Second, for current facts and citations, I use Perplexity AI because it searches the live web and cites sources  I then verify the most important claims against the original sources. Third, I use Claude for summarizing long documents, because its 200K context window handles full reports at once. I synthesize across sources using ChatGPT's multi-source synthesis prompt. Throughout, I apply the SIFT framework to evaluate every claim  especially statistics, specific percentages, and any quantitative finding  before including it in professional work."
 
 ---
 
@@ -541,7 +541,7 @@ Generate a 200-word synthesis that you could use in a business presentation.
 
 | Term | Definition |
 |------|-----------|
-| **Research Orientation** | A map of a topic's sub-topics, debates, and key sources — not a full answer |
+| **Research Orientation** | A map of a topic's sub-topics, debates, and key sources  not a full answer |
 | **Layered Summarization** | Producing summaries at different depths (30 words → 150 → 500) for different uses |
 | **Multi-Source Synthesis** | Combining findings from multiple sources into a coherent unified analysis |
 | **SIFT Framework** | Stop, Investigate the source, Find better coverage, Trace to original context |

@@ -43,7 +43,7 @@ FAILURE 1: "Features tour" instead of "problem-solution story"
 FAILURE 2: Too much on every slide
   Bullet points covering every detail. Audience reads the slide,
   stops listening to the presenter.
-  Fix: One idea per slide. Slide supports the speaker — not vice versa.
+  Fix: One idea per slide. Slide supports the speaker not vice versa.
 
 FAILURE 3: Missing the "So what?"
   The presenter explains what their solution does but never clearly
@@ -99,7 +99,7 @@ SLIDE 5 — HOW IT WORKS:
 SLIDE 6 — LIVE DEMONSTRATION:
   Title: "Live Demonstration — [Core Capability]"
   Content: Placeholder for live demo context
-  [Describe what you will demonstrate — shown on the slide before you demo]
+  [Describe what you will demonstrate shown on the slide before you demo]
   Visual: Screenshot of your demo interface or first sample output
 
 SLIDE 7 — RESULTS AND EVIDENCE:
@@ -127,7 +127,7 @@ SLIDE 10 — SUMMARY AND CLOSE:
 
 ### 2.2 Assertion-Based Slide Titles
 
-The title of every slide must communicate the main point — not just label the topic.
+The title of every slide must communicate the main point not just label the topic.
 
 ```
 WEAK (LABEL): "Problem Overview"
@@ -172,7 +172,7 @@ Generate:
 1. A complete 10-slide structure following the prescribed format
 2. For each slide: an assertion-based title + 3-bullet content guide
 3. The SCR thread — show how the narrative flows from slide to slide
-4. A suggested opening line (first sentence of the presentation — not
+4. A suggested opening line (first sentence of the presentation not
    "Hi my name is..." but an arresting hook that starts with the problem)
 5. A suggested closing line (last sentence before Q&A invitation)
 ```
@@ -513,7 +513,7 @@ Note the 1 transition that feels most awkward — fix it before Session 30.
 **Q1:** *"How do you present technical work to a non-technical audience?"*
 
 **Strong Answer:**
-"I follow the SCR narrative framework: Situation → Complication → Resolution. I open with the problem in terms the audience already feels — not with technical details of my solution — because the problem is what creates the need for what I'm showing them. I use assertion-based slide titles so every slide communicates its point before I speak a word. For technical demonstrations, I script the walkthrough precisely and practice it until the demo takes exactly the time I planned for it — I also always prepare pre-run backup outputs so a live connection issue doesn't derail the evidence. For Q&A, I prepare structured answers to the 5 toughest questions in advance: a direct answer, evidence from testing, acknowledgment of what the question gets right, and a forward view showing I know what development is still needed. The goal is that someone who knows nothing about AI walks away understanding the business problem I solved and trusting the evidence I provided."
+"I follow the SCR narrative framework: Situation → Complication → Resolution. I open with the problem in terms the audience already feels not with technical details of my solution because the problem is what creates the need for what I'm showing them. I use assertion-based slide titles so every slide communicates its point before I speak a word. For technical demonstrations, I script the walkthrough precisely and practice it until the demo takes exactly the time I planned for it I also always prepare pre-run backup outputs so a live connection issue doesn't derail the evidence. For Q&A, I prepare structured answers to the 5 toughest questions in advance: a direct answer, evidence from testing, acknowledgment of what the question gets right, and a forward view showing I know what development is still needed. The goal is that someone who knows nothing about AI walks away understanding the business problem I solved and trusting the evidence I provided."
 
 ---
 

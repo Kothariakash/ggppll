@@ -169,7 +169,7 @@ PROBLEM DEFINITION CANVAS — FILLED EXAMPLE:
    They have the observations but not the writing skill or time.
 
 5. WHAT HAS BEEN TRIED?
-   - Manager training on performance feedback (limited impact — forgotten quickly)
+   - Manager training on performance feedback (limited impact forgotten quickly)
    - Review templates with prompts (partially helpful, but still blank-page problem)
    - HR coaching reviews (scales poorly — HR is a bottleneck)
 
@@ -195,7 +195,7 @@ PROBLEM DEFINITION CANVAS — FILLED EXAMPLE:
 
 ## 3. Writing the Problem Statement
 
-The Problem Statement is a crisp, compelling articulation of the problem — precise enough to drive solution design.
+The Problem Statement is a crisp, compelling articulation of the problem precise enough to drive solution design.
 
 ### 3.1 The Problem Statement Formula
 
@@ -381,7 +381,7 @@ Act as a demanding consultant and challenge my problem definition:
 1. Is this problem specific enough? If not, what's missing?
 2. Is the root cause identified, or am I describing symptoms?
 3. Is the impact quantified? If not, how could I estimate it?
-4. Who exactly experiences this — am I too broad or too narrow?
+4. Who exactly experiences this am I too broad or too narrow?
 5. Is this genuinely solvable with AI tools available to a non-developer?
 
 Then rewrite my Problem Statement using the formula:
@@ -508,7 +508,7 @@ Focus especially on:
 **Q1:** *"Tell me about an AI project you've worked on. How did you define the problem?"*
 
 **Strong Answer:**
-"I used a structured Problem Definition Canvas before designing anything. The canvas has 8 elements: who has the problem, what it is, the quantified impact, the root cause, what's been tried, what success looks like, constraints, and success metrics. The key insight this process gave me was the root cause — I discovered that the problem I was solving wasn't the one the person *said* they had, but a deeper underlying issue. Once I had a precise problem statement using the formula — [who] currently [does what] which [costs/causes what] because [root cause], and a successful solution would [outcome] — I could design a solution that actually addressed the root cause rather than the surface symptom. My solution design then mapped the pipeline, identified the right AI tools for each step, and defined an MVP scope I could build and test in two sessions."
+"I used a structured Problem Definition Canvas before designing anything. The canvas has 8 elements: who has the problem, what it is, the quantified impact, the root cause, what's been tried, what success looks like, constraints, and success metrics. The key insight this process gave me was the root cause I discovered that the problem I was solving wasn't the one the person *said* they had, but a deeper underlying issue. Once I had a precise problem statement using the formula [who] currently [does what] which [costs/causes what] because [root cause], and a successful solution would [outcome] I could design a solution that actually addressed the root cause rather than the surface symptom. My solution design then mapped the pipeline, identified the right AI tools for each step, and defined an MVP scope I could build and test in two sessions."
 
 ---
 
@@ -533,9 +533,9 @@ Focus especially on:
 | **Problem Statement** | A concise, formulaic articulation of a problem including who, what, impact, root cause, and desired outcome |
 | **Solution Design Document** | An 8-element planning document for an AI solution including tools, pipeline, prompts, and success metrics |
 | **MVP (Minimum Viable Product)** | The simplest version of a solution that can be built and tested to validate the core concept |
-| **Root Cause** | The underlying reason a problem exists — distinct from its symptoms |
+| **Root Cause** | The underlying reason a problem exists distinct from its symptoms |
 | **Success Metrics** | Specific, measurable criteria used to determine whether a solution has solved the problem |
-| **Capstone Project** | The final integrative project for the certification program — a real AI solution designed, built, tested, and presented |
+| **Capstone Project** | The final integrative project for the certification program a real AI solution designed, built, tested, and presented |
 
 ---
 

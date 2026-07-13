@@ -10,7 +10,7 @@
 │  SESSION 19 of 30  |  1 Hour  |  30% Theory + 70% Hands-On                 │
 │                                                                              │
 │  "Every customer interaction is either building loyalty or destroying it.   │
-│   AI helps you respond faster and better — but empathy must always lead."   │
+│   AI helps you respond faster and better but empathy must always lead."   │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -77,13 +77,13 @@ Every customer support response should follow the HEARD structure:
 ├──────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
 │  H — HEAR         Acknowledge that you have understood their specific issue  │
-│                   (not generic — reference their exact problem)             │
+│                   (not generic reference their exact problem)             │
 │                                                                              │
 │  E — EMPATHIZE    Express genuine empathy for the impact this had on them   │
-│                   (not "we apologize for any inconvenience" — be specific)  │
+│                   (not "we apologize for any inconvenience" be specific)  │
 │                                                                              │
 │  A — APOLOGIZE    Where appropriate: a clear, direct apology                │
-│                   (take ownership — no passive voice, no deflection)        │
+│                   (take ownership no passive voice, no deflection)        │
 │                                                                              │
 │  R — RESOLVE      State the specific solution you are providing             │
 │                   (concrete action, timeline, what they need to do)         │
@@ -99,7 +99,7 @@ Every customer support response should follow the HEARD structure:
 ```
 PROMPT:
 You are a Senior Customer Support Specialist at [COMPANY NAME].
-Our brand voice: [BRIEF DESCRIPTION — e.g., warm, direct, solution-focused,
+Our brand voice: [BRIEF DESCRIPTION e.g., warm, direct, solution-focused,
 never defensive or robotic]
 
 A customer has contacted us with this issue:
@@ -141,7 +141,7 @@ Additional gesture (if applicable): [DISCOUNT CODE / EXPEDITED SHIPPING / COMPEN
 
 Key requirements:
 - Acknowledge the SPECIFIC problem (not "we're sorry for your experience")
-- Take full ownership — do not reference supply chain, shipping partner, etc.
+- Take full ownership do not reference supply chain, shipping partner, etc.
 - State the resolution clearly with timeline
 - Make the next step easy (what does the customer need to do, if anything?)
 ```
@@ -156,11 +156,11 @@ PROMPT:
 Situation: Customer ordered [PRODUCT] on [DATE], expected by [DATE], 
 still not received as of today.
 Current status of their order: [WHAT YOU KNOW]
-Resolution: [WHAT YOU WILL DO — reship / refund / investigate]
+Resolution: [WHAT YOU WILL DO reship / refund / investigate]
 
 Key requirements:
 - Be honest about the current status (don't give false reassurance)
-- If you don't know where it is, say so — don't make up a location
+- If you don't know where it is, say so don't make up a location
 - Give a specific next step: "I'll send you a tracking update by [TIME]"
 - Avoid vague commitments: "as soon as possible" → replace with a date
 ```
@@ -172,7 +172,7 @@ Key requirements:
 ```
 PROMPT:
 [MASTER TEMPLATE + HEARD]
-Situation: Customer [DESCRIBES BILLING ISSUE — double charge / incorrect amount / 
+Situation: Customer [DESCRIBES BILLING ISSUE double charge / incorrect amount / 
 unauthorized charge].
 Investigation result: [CONFIRMED ERROR / UNDER REVIEW / CORRECT CHARGE WITH EXPLANATION]
 Resolution: [REFUND IN X DAYS / CREDIT TO ACCOUNT / EXPLANATION OF CORRECT CHARGE]
@@ -191,14 +191,14 @@ Key requirements:
 PROMPT:
 [MASTER TEMPLATE + HEARD]
 Situation: Customer wants to return [PRODUCT] for [REASON].
-Our return policy: [KEY TERMS — within X days / condition required]
+Our return policy: [KEY TERMS within X days / condition required]
 Eligibility status: [ELIGIBLE / ELIGIBLE WITH CONDITIONS / NOT ELIGIBLE]
 Resolution if eligible: [EXACT STEPS TO RETURN + REFUND TIMELINE]
 
 Key requirements:
-- If eligible: make the process easy — minimize steps the customer must take
+- If eligible: make the process easy minimize steps the customer must take
 - If not eligible: explain why, offer what you CAN do (exchange, credit, exception)
-- Never just cite policy — explain it in human terms
+- Never just cite policy explain it in human terms
 - If making an exception: state it as a gesture of goodwill, not policy
 ```
 
@@ -207,16 +207,16 @@ Key requirements:
 ```
 PROMPT:
 [MASTER TEMPLATE + HEARD]
-Situation: Customer is experiencing [TECHNICAL ISSUE — describe specifically].
+Situation: Customer is experiencing [TECHNICAL ISSUE describe specifically].
 Their environment: [DEVICE / BROWSER / OS / APP VERSION if known]
 Likely cause (based on support knowledge): [CAUSE]
-Solution steps: [LIST THE STEPS — you provide, AI formats]
+Solution steps: [LIST THE STEPS you provide, AI formats]
 
 Key requirements:
 - Start with empathy before troubleshooting (they're already frustrated)
-- Number the steps clearly — one action per step
+- Number the steps clearly one action per step
 - After steps: tell them what to do if this doesn't work (next escalation path)
-- Do not assume technical knowledge — explain each step plainly
+- Do not assume technical knowledge explain each step plainly
 - End with an invitation to follow up if needed
 ```
 
@@ -226,14 +226,14 @@ Key requirements:
 
 ```
 PROMPT:
-You are a Senior Customer Relations Manager — not a frontline agent.
+You are a Senior Customer Relations Manager not a frontline agent.
 This customer is [VERY UPSET / ESCALATING / HAS LEFT A PUBLIC REVIEW].
 
 [DESCRIBE THE SITUATION AND WHAT WENT WRONG]
 
 Write a response that:
 1. LEADS with a genuine, senior-level acknowledgment of their experience
-   (This is not a junior apology — this is leadership taking responsibility)
+   (This is not a junior apology this is leadership taking responsibility)
 2. Does NOT make excuses, justify the failure, or explain why it happened
 3. States clearly what you are personally committed to doing
 4. Offers a meaningful resolution: [WHAT YOU WILL OFFER]
@@ -254,7 +254,7 @@ Situation: Customer has provided [POSITIVE FEEDBACK / FEATURE REQUEST / PRODUCT 
 Current status of the requested feature/change: [IN ROADMAP / UNDER CONSIDERATION / NOT PLANNED]
 
 Write a response that:
-- Genuinely thanks them (specific to their suggestion — not generic)
+- Genuinely thanks them (specific to their suggestion not generic)
 - If in roadmap: share what you can (without committing to timelines)
 - If under consideration: explain the process honestly
 - If not planned: be honest but appreciative, explain why if possible
@@ -276,7 +276,7 @@ Write a response that:
 - Matches their enthusiasm (don't be flat when they're celebrating)
 - Is specific about what you're thanking them for
 - Shares their feedback with a specific team member mentioned if applicable
-- Invites them to share publicly (review, social media) — only if appropriate
+- Invites them to share publicly (review, social media) only if appropriate
 - Leaves them feeling like they matter to us as individuals
 
 Tone: Warm, genuine, personal. Under 100 words.
@@ -356,7 +356,7 @@ I have a list of the most common customer questions and issues we receive.
 Convert these into a clear, helpful FAQ page.
 
 Common issues/questions:
-[PASTE YOUR LIST — can be rough notes, ticket themes, or specific questions]
+[PASTE YOUR LIST can be rough notes, ticket themes, or specific questions]
 
 For each FAQ entry:
 Q: [The question phrased exactly as a customer would ask it]
@@ -366,7 +366,7 @@ A: [Clear answer — plain English, under 100 words per answer]
    End complex answers with: "Still need help? [CONTACT CTA]"
 
 Tone: Helpful and clear. Written for a customer who is slightly frustrated and
-wants the answer immediately — not a policy document.
+wants the answer immediately not a policy document.
 
 Organize into these categories: [LIST YOUR CATEGORIES]
 ```
@@ -387,7 +387,7 @@ Article structure:
 [1–2 sentences: what this article covers and who it's for]
 
 ## Before You Begin
-[Prerequisites or things to have ready — if applicable]
+[Prerequisites or things to have ready if applicable]
 
 ## Step-by-Step Guide
 1. [Action]
@@ -401,7 +401,7 @@ Article structure:
 **Solution:** [How to resolve it]
 
 ## Still Need Help?
-[Contact options — chat, email, phone with hours]
+[Contact options chat, email, phone with hours]
 
 ---
 *Last updated: [DATE] | Was this helpful? [YES / NO]*
@@ -425,8 +425,8 @@ CHATBOT SYSTEM PROMPT TEMPLATE:
 You are [CHATBOT NAME], the customer support assistant for [COMPANY NAME].
 
 YOUR PERSONALITY:
-  [3 adjectives describing the bot's character — e.g., "warm, helpful, direct"]
-  You communicate like a knowledgeable friend — not a corporate robot.
+  [3 adjectives describing the bot's character e.g., "warm, helpful, direct"]
+  You communicate like a knowledgeable friend not a corporate robot.
 
 YOUR CAPABILITIES:
   You can help customers with:
@@ -598,7 +598,7 @@ Use the FAQ Generator prompt. Then evaluate: Are the answers direct? Under 100 w
 **Q1:** *"How would you use AI to improve customer support quality and efficiency?"*
 
 **Strong Answer:**
-"I'd approach it in layers. First, I'd use AI to build a comprehensive response template library — one production-ready prompt per common ticket type, built on the HEARD framework: Hear the specific issue, Empathize genuinely, Apologize clearly, Resolve specifically, Delight with a closing gesture. Human agents use these templates as first drafts, edit for the specific customer's context, and send. This maintains quality consistency while reducing response time from 20 minutes to 5. Second, for knowledge base and FAQ content — AI generates these from our most common support issues, saving weeks of documentation work. Third, for chatbot design — AI helps me build the system prompt, guardrails, escalation logic, and brand voice. The key quality control is the 5-dimension scoring rubric applied to every batch of responses before deployment."
+"I'd approach it in layers. First, I'd use AI to build a comprehensive response template library one production-ready prompt per common ticket type, built on the HEARD framework: Hear the specific issue, Empathize genuinely, Apologize clearly, Resolve specifically, Delight with a closing gesture. Human agents use these templates as first drafts, edit for the specific customer's context, and send. This maintains quality consistency while reducing response time from 20 minutes to 5. Second, for knowledge base and FAQ content AI generates these from our most common support issues, saving weeks of documentation work. Third, for chatbot design AI helps me build the system prompt, guardrails, escalation logic, and brand voice. The key quality control is the 5-dimension scoring rubric applied to every batch of responses before deployment."
 
 ---
 
@@ -619,7 +619,7 @@ Use the FAQ Generator prompt. Then evaluate: Are the answers direct? Under 100 w
 
 | Term | Definition |
 |------|-----------|
-| **HEARD Framework** | Hear, Empathize, Apologize, Resolve, Delight — the customer response structure |
+| **HEARD Framework** | Hear, Empathize, Apologize, Resolve, Delight the customer response structure |
 | **CSAT (Customer Satisfaction Score)** | A metric measuring customer satisfaction with a specific interaction |
 | **Ticket Triage** | The process of categorizing and prioritizing incoming support requests |
 | **Knowledge Base** | A self-service database of articles and FAQs helping customers resolve issues independently |

@@ -77,7 +77,7 @@ MODE 3 — AI AS TRANSLATOR (ChatGPT/Claude/Gemini):
 ChatGPT's "Advanced Data Analysis" (Code Interpreter) feature allows you to:
 - Upload CSV, Excel, or other data files directly into the chat
 - Ask questions in plain English
-- ChatGPT writes Python code, executes it in a sandboxed environment, and shows you the results — including charts and visualizations
+- ChatGPT writes Python code, executes it in a sandboxed environment, and shows you the results including charts and visualizations
 
 **Access:** ChatGPT Plus (paid) → "Advanced Data Analysis" mode
 
@@ -98,9 +98,9 @@ PROMPT (after uploading your data file):
 PROMPT:
 "Now perform an exploratory analysis:
 1. Summary statistics for all numerical columns (mean, median, min, max, std)
-2. Distribution of [KEY CATEGORICAL COLUMN] — show as a bar chart
-3. Trend of [KEY METRIC] over time — show as a line chart
-4. Correlation between [COLUMN A] and [COLUMN B] — show as a scatter plot
+2. Distribution of [KEY CATEGORICAL COLUMN] show as a bar chart
+3. Trend of [KEY METRIC] over time show as a line chart
+4. Correlation between [COLUMN A] and [COLUMN B] show as a scatter plot
 5. Top 10 [ENTITY — customers / products / regions] by [METRIC]
 
 For each chart: add a title, clear axis labels, and a 1-sentence interpretation."
@@ -110,7 +110,7 @@ For each chart: add a title, clear axis labels, and a 1-sentence interpretation.
 ```
 PROMPT:
 "Answer this specific business question using the data:
-[YOUR SPECIFIC QUESTION — e.g., 'Which product category has the highest
+[YOUR SPECIFIC QUESTION e.g., 'Which product category has the highest
 customer return rate and what is the trend over the last 6 months?']
 
 Show:
@@ -284,7 +284,7 @@ RAW ANALYSIS OUTPUT:
    Product category A: -12%. Category B: +8%. Region South: -18%."
 
 DATA NARRATIVE (what decision-makers need):
-  "Q3 revenue missed budget by 5.6% — driven entirely by performance in
+  "Q3 revenue missed budget by 5.6% driven entirely by performance in
    South region and Category A, which together account for 85% of the shortfall.
    Category B and all other regions are tracking ahead of plan.
    The implication: this is a concentrated geographic and product issue,
@@ -371,10 +371,10 @@ Strategic priorities: [LIST 3–4 PRIORITIES FOR THIS PERIOD]
 For each strategic priority, generate 2–3 KPIs:
 
 KPI NAME: [Clear, measurable name]
-DEFINITION: [Exactly how it is calculated — formula if applicable]
-DATA SOURCE: [Where this data lives — system, table, process]
+DEFINITION: [Exactly how it is calculated formula if applicable]
+DATA SOURCE: [Where this data lives system, table, process]
 MEASUREMENT FREQUENCY: [Daily / Weekly / Monthly / Quarterly]
-TARGET: [Describe how the target should be set — not a specific number]
+TARGET: [Describe how the target should be set not a specific number]
 RAG STATUS: [Describe Green / Amber / Red threshold logic]
 OWNER: [Role responsible for this KPI]
 WHY IT MATTERS: [1 sentence — business impact of this metric]
@@ -398,8 +398,8 @@ Key questions this dashboard must answer: [LIST 3–5 QUESTIONS]
 For each key question, specify:
 VISUALIZATION TYPE: [Bar chart / Line chart / KPI card / Table / Heatmap / Gauge]
 METRIC SHOWN: [What exactly is being measured]
-DIMENSIONS / FILTERS: [How users will filter the data — by time, region, product]
-BENCHMARK REFERENCE: [What to compare against — target, prior period, industry]
+DIMENSIONS / FILTERS: [How users will filter the data by time, region, product]
+BENCHMARK REFERENCE: [What to compare against target, prior period, industry]
 
 Layout recommendation:
 - Top row: [3–4 headline KPI cards — the numbers at a glance]
@@ -448,7 +448,7 @@ AI + DATA ANALYTICS IN PRACTICE:
      accelerating the time from data question to insight by 40–60%.
 ```
 
-**The lesson for this session:** Netflix's data success is NOT just about having great data or great algorithms. It is about the humans who can ask the right questions, interpret the outputs, and translate them into business decisions. That translation work — data → narrative → decision — is exactly what this session has equipped you to do.
+**The lesson for this session:** Netflix's data success is NOT just about having great data or great algorithms. It is about the humans who can ask the right questions, interpret the outputs, and translate them into business decisions. That translation work data → narrative → decision is exactly what this session has equipped you to do.
 
 ---
 
@@ -509,7 +509,7 @@ Before using any AI-generated analysis professionally:
 ### Task 1: Data Exploration with Code Interpreter (10 minutes)
 
 **Option A (with Code Interpreter):**
-Download a free sample dataset (e.g., from Kaggle or use a CSV of public data — e.g., India state-wise population data, or a public sales dataset). Upload to ChatGPT Code Interpreter. Use the 4-step exploration workflow (Orient → Explore → Specific Question → Clean).
+Download a free sample dataset (e.g., from Kaggle or use a CSV of public data e.g., India state-wise population data, or a public sales dataset). Upload to ChatGPT Code Interpreter. Use the 4-step exploration workflow (Orient → Explore → Specific Question → Clean).
 
 **Option B (without Code Interpreter):**
 Use this fictional dataset description:
@@ -536,7 +536,7 @@ Choose ONE:
 - **SQL:** Write a query showing top 3 products by revenue in each region for the last quarter
 - **Excel:** Generate formulas to calculate: (1) quarter-to-date total, (2) % vs same quarter last year, (3) rank among all products
 
-Use the appropriate code generator prompt. Review the output — does the logic look correct?
+Use the appropriate code generator prompt. Review the output does the logic look correct?
 
 ---
 
@@ -547,7 +547,7 @@ Using the fictional data from Task 1 (Option B), use the Data Narrative Prompt t
 Your analysis findings:
 - Electronics is declining; Clothing is the growth story
 - South region is the main drag on performance
-- December seasonality is extreme — plan accordingly
+- December seasonality is extreme plan accordingly
 
 Write a 150-word narrative for a CEO who needs to make Q4 resource allocation decisions.
 
@@ -600,7 +600,7 @@ SESSION 20 ✓ AI for Data Analysis
 **Q1:** *"How do you use AI for data analysis in a business context?"*
 
 **Strong Answer:**
-"I use AI in three ways for data work. First, for code generation — I describe the analysis I need in plain English and AI writes the Python, SQL, or Excel formula. I then verify the logic, test on sample data, and run it. This eliminates 70–80% of the time I'd spend writing boilerplate. Second, for Code Interpreter exploratory analysis — I upload a dataset and ask business questions in plain language. AI writes and executes the Python code, shows me charts, and I focus on interpreting the findings. Third, for data narrative writing — I take my analysis outputs and use a structured prompt to convert them into a business narrative with headline, story, so-what, recommendation, and caveat. This bridges the gap between the analysis and the decision-maker. The key discipline: verify every number AI produces before using it professionally, and never upload confidential data to public AI tools."
+"I use AI in three ways for data work. First, for code generation I describe the analysis I need in plain English and AI writes the Python, SQL, or Excel formula. I then verify the logic, test on sample data, and run it. This eliminates 70–80% of the time I'd spend writing boilerplate. Second, for Code Interpreter exploratory analysis I upload a dataset and ask business questions in plain language. AI writes and executes the Python code, shows me charts, and I focus on interpreting the findings. Third, for data narrative writing I take my analysis outputs and use a structured prompt to convert them into a business narrative with headline, story, so-what, recommendation, and caveat. This bridges the gap between the analysis and the decision-maker. The key discipline: verify every number AI produces before using it professionally, and never upload confidential data to public AI tools."
 
 ---
 
@@ -627,7 +627,7 @@ SESSION 20 ✓ AI for Data Analysis
 | **KPI Framework** | A structured set of key performance indicators aligned to strategic priorities |
 | **Dashboard Design Brief** | A specification document defining what a dashboard must show and for whom |
 | **Cohort Analysis** | Grouping customers by a shared characteristic (sign-up month) and tracking behavior over time |
-| **RFM Analysis** | Recency, Frequency, Monetary — a customer segmentation framework |
+| **RFM Analysis** | Recency, Frequency, Monetary a customer segmentation framework |
 | **Window Function (SQL)** | SQL functions that perform calculations across related rows (RANK, LAG, RUNNING SUM) |
 | **Data Wrangling** | The process of cleaning, transforming, and structuring raw data for analysis |
 

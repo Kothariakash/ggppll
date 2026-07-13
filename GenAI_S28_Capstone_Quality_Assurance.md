@@ -49,7 +49,7 @@ WHAT SESSION 28 REVEALS:
 
 THE GOAL OF SESSION 28:
   Transform your built solution into a tested, refined, demonstration-ready
-  product — with documented evidence of its performance.
+  product with documented evidence of its performance.
 ```
 
 ### 1.2 The Types of Failures to Find
@@ -117,7 +117,7 @@ PHASE 3 — ADVERSARIAL TESTING (Probe the guardrails):
 
 PHASE 4 — USER TESTING (Validate usability):
   Have 1–2 people who are NOT you attempt to use the solution.
-  Give them zero instructions — only what a real user would have.
+  Give them zero instructions only what a real user would have.
   Observe: Where do they get confused? What do they do wrong?
   This reveals usability failures you cannot see yourself.
 
@@ -180,7 +180,7 @@ Q2: "Did AI add information I didn't provide?"
 Q3: "Did AI ignore part of my instruction?"
     → If yes: Was the instruction buried? Move it higher.
       Was it ambiguous? Rewrite it with clearer action verbs.
-      Was it too long? The prompt may be too complex — split it.
+      Was it too long? The prompt may be too complex split it.
 
 Q4: "Is the output too generic / vague?"
     → If yes: Add few-shot examples (Session 7).
@@ -220,7 +220,7 @@ CRITICAL RULE: Change ONE thing at a time.
 | Failure | Quick Fix |
 |---------|-----------|
 | AI invents data | Add: "Do not add any information not in my input" |
-| Output too long | Add: "Maximum [X] words" + "Be concise — cut anything not essential" |
+| Output too long | Add: "Maximum [X] words" + "Be concise cut anything not essential" |
 | Output too vague | Add few-shot example or more specific format requirement |
 | AI breaks scope | Make guardrail more specific + add redirect instruction |
 | Inconsistent quality | Add output anchor example; reduce temperature metaphorically (more format constraints) |
@@ -525,7 +525,7 @@ PHASE 6 — Demo Materials (5 min):
 **Q1:** *"How do you test an AI solution before deploying it professionally?"*
 
 **Strong Answer:**
-"I use a 5-phase testing protocol. Phase 1 is baseline testing — running the solution on 5 clean, realistic inputs to confirm it works as designed and scoring each output against a quality rubric. Phase 2 is stress testing — using incomplete, ambiguous, minimal, and off-topic inputs to find edge cases. Phase 3 is adversarial testing — deliberately trying to override the solution's guardrails, asking for out-of-scope outputs, and providing contradictory information to see how it responds. Phase 4 is user testing — having someone who wasn't involved in building it try to use it from scratch, which reveals usability failures I can't see myself. Phase 5 is success metric validation — measuring the actual performance against the quantified targets set at problem definition. I document every test in a log, diagnose root causes for any failure, make one targeted fix at a time, and re-test. Before presenting any solution, I also complete a full responsible AI audit covering data privacy, hallucination risk, human oversight, bias, transparency, and scope compliance."
+"I use a 5-phase testing protocol. Phase 1 is baseline testing running the solution on 5 clean, realistic inputs to confirm it works as designed and scoring each output against a quality rubric. Phase 2 is stress testing using incomplete, ambiguous, minimal, and off-topic inputs to find edge cases. Phase 3 is adversarial testing deliberately trying to override the solution's guardrails, asking for out-of-scope outputs, and providing contradictory information to see how it responds. Phase 4 is user testing having someone who wasn't involved in building it try to use it from scratch, which reveals usability failures I can't see myself. Phase 5 is success metric validation measuring the actual performance against the quantified targets set at problem definition. I document every test in a log, diagnose root causes for any failure, make one targeted fix at a time, and re-test. Before presenting any solution, I also complete a full responsible AI audit covering data privacy, hallucination risk, human oversight, bias, transparency, and scope compliance."
 
 ---
 
@@ -552,7 +552,7 @@ PHASE 6 — Demo Materials (5 min):
 | **User Testing** | Having target users attempt to use the solution without guidance to identify usability failures |
 | **Responsible AI Audit** | A structured checklist ensuring a solution meets privacy, accuracy, oversight, fairness, and transparency standards |
 | **Root Cause Diagnosis** | Identifying the underlying reason a test failed — distinct from describing the symptom |
-| **Iteration Cycle** | Test → Diagnose → One fix → Re-test — the disciplined approach to prompt improvement |
+| **Iteration Cycle** | Test → Diagnose → One fix → Re-test the disciplined approach to prompt improvement |
 | **Demonstration Package** | The tested inputs, pre-run outputs, and comparison materials prepared for the final presentation |
 | **Success Metric Validation** | Measuring actual solution performance against the quantified targets defined at problem definition |
 

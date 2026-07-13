@@ -10,7 +10,7 @@
 │  SESSION 25 of 30  |  1 Hour  |  25% Theory + 75% Hands-On                 │
 │                                                                              │
 │  "A single AI tool is a saw. An integrated AI pipeline is a factory.        │
-│   The factory doesn't just cut faster — it builds things the saw            │
+│   The factory doesn't just cut faster it builds things the saw            │
 │   alone never could."                                                        │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -602,7 +602,7 @@ SESSION 25 ✓ Integrated AI Pipelines
 **Q1:** *"Can you describe an AI pipeline you've designed or could design for a real business problem?"*
 
 **Strong Answer:**
-"One pipeline I've designed is a complete content production system. Starting from a topic idea, the pipeline runs: Perplexity AI for current facts with citations (verified by me), ChatGPT for a long-form blog post draft using a structured SEO workflow, then a branching step where the same post gets repurposed into LinkedIn, Twitter/X, and Instagram formats. DALL-E 3 generates the hero image using a VACS prompt, ElevenLabs produces a 90-second voiceover, Suno.ai generates background music, and Canva assembles the short video. The human checkpoints are at article approval (before any distribution) and final video review. This pipeline converts 1.5 hours of human time plus AI processing into a complete multi-channel content set that would take 2–3 days manually. The design follows the PIPES framework — starting from the final deliverable and working backwards to map every transformation step with the right tool assigned to each."
+"One pipeline I've designed is a complete content production system. Starting from a topic idea, the pipeline runs: Perplexity AI for current facts with citations (verified by me), ChatGPT for a long-form blog post draft using a structured SEO workflow, then a branching step where the same post gets repurposed into LinkedIn, Twitter/X, and Instagram formats. DALL-E 3 generates the hero image using a VACS prompt, ElevenLabs produces a 90-second voiceover, Suno.ai generates background music, and Canva assembles the short video. The human checkpoints are at article approval (before any distribution) and final video review. This pipeline converts 1.5 hours of human time plus AI processing into a complete multi-channel content set that would take 2–3 days manually. The design follows the PIPES framework starting from the final deliverable and working backwards to map every transformation step with the right tool assigned to each."
 
 ---
 
@@ -624,7 +624,7 @@ SESSION 25 ✓ Integrated AI Pipelines
 | Term | Definition |
 |------|-----------|
 | **AI Pipeline** | A sequence of multiple AI tools and steps working together to produce a complete output |
-| **PIPES Framework** | Purpose, Inputs, Process, Expertise, Safeguards — a pipeline design methodology |
+| **PIPES Framework** | Purpose, Inputs, Process, Expertise, Safeguards a pipeline design methodology |
 | **Linear Pipeline** | A sequential pipeline where each step feeds directly into the next |
 | **Branching Pipeline** | A pipeline where one input produces multiple outputs in parallel |
 | **Loop Pipeline** | A self-improving pipeline where AI drafts and critiques iteratively |

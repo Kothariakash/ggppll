@@ -89,7 +89,7 @@ MUSIC GENERATION:
 
 ### 2.1 How AI Video Generation Works
 
-AI video generation extends image diffusion models into the temporal dimension — generating sequences of frames that flow coherently over time.
+AI video generation extends image diffusion models into the temporal dimension generating sequences of frames that flow coherently over time.
 
 ```
 CURRENT CAPABILITIES (2024):
@@ -158,7 +158,7 @@ Step 1: Write the script in ChatGPT
   "Write a 90-second training video script explaining [TOPIC] to [AUDIENCE].
   Conversational but professional. Short sentences. 
   Include [number] clear sections with transitions.
-  Suitable for an AI presenter to read aloud — no humor that relies on
+  Suitable for an AI presenter to read aloud no humor that relies on
   facial expression or body language."
 
 Step 2: Choose an avatar (or create a custom one)
@@ -218,7 +218,7 @@ Video type: [EXPLAINER / PRODUCT DEMO / TRAINING / ADVERTISEMENT]
 Audience: [WHO WILL WATCH THIS]
 
 Requirements:
-- Written to be SPOKEN, not read — short sentences, natural rhythm
+- Written to be SPOKEN, not read short sentences, natural rhythm
 - Mark pauses with [PAUSE] where the narrator should breathe
 - Mark emphasis with *asterisks* around key words
 - Reading pace: ~130 words per minute
@@ -284,7 +284,7 @@ Modern and confident. Good for product launch video intro.
 
 **Note on copyright:**
 - Suno and Udio grant commercial licenses for generated music
-- Check each platform's current terms — they evolve
+- Check each platform's current terms they evolve
 - For guaranteed broadcast rights: use Soundraw or Epidemic Sound AI (fully licensed)
 
 ---
@@ -341,7 +341,7 @@ STEP 2 — SCRIPT (ChatGPT, 10 minutes):
   "Write a 30-second video script for Instagram Reels about [TOPIC].
   Hook: [CHOOSE BEST HOOK]. No filler. Every sentence must earn its place.
   Format: Hook (5 sec) → Content (20 sec) → CTA (5 sec).
-  Spoken naturally — informal but clear."
+  Spoken naturally informal but clear."
 
 STEP 3 — VISUALS (Canva AI / DALL-E 3, 15 minutes):
   3–5 images or AI video clips to support the script.
@@ -506,7 +506,7 @@ Generate at least 2 of the images using DALL-E 3 / Canva AI.
 **Q1:** *"How is AI changing video and audio content production professionally?"*
 
 **Strong Answer:**
-"AI is fundamentally democratizing multimedia production — what previously required production studios, voiceover artists, and weeks of production can now be done by a single professional in a day. My practical workflow combines: ChatGPT for script writing (using spoken-language style prompts), ElevenLabs for professional-quality voiceover narration, DALL-E 3 for scene visuals, Suno.ai for background music, and Canva for assembly. For training videos, Synthesia's AI avatar technology allows organizations like Heineken to produce content in 40 languages at 30x lower cost than traditional production. The ethical responsibility is critical: AI video and audio must be used transparently — no synthetic video of real people, no unconsented voice cloning, and disclosure when AI-generated content is shared publicly."
+"AI is fundamentally democratizing multimedia production what previously required production studios, voiceover artists, and weeks of production can now be done by a single professional in a day. My practical workflow combines: ChatGPT for script writing (using spoken-language style prompts), ElevenLabs for professional-quality voiceover narration, DALL-E 3 for scene visuals, Suno.ai for background music, and Canva for assembly. For training videos, Synthesia's AI avatar technology allows organizations like Heineken to produce content in 40 languages at 30x lower cost than traditional production. The ethical responsibility is critical: AI video and audio must be used transparently no synthetic video of real people, no unconsented voice cloning, and disclosure when AI-generated content is shared publicly."
 
 ---
 

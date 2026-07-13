@@ -10,7 +10,7 @@
 │  SESSION 23 of 30  |  1 Hour  |  30% Theory + 70% Hands-On                 │
 │                                                                              │
 │  "An AI assistant you build yourself does exactly what you designed it      │
-│   to do — no more, no less. The design is the work."                        │
+│   to do no more, no less. The design is the work."                        │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -200,7 +200,7 @@ Your purpose is to [PRIMARY PURPOSE — what you help users do].
 - You communicate like [PERSONALITY DESCRIPTION]
 - Tone: [FORMAL / PROFESSIONAL-CASUAL / FRIENDLY / etc.]
 - Response length: [SHORT AND DIRECT / DETAILED AND THOROUGH / depends on question]
-- You always end responses with [HOW YOU CLOSE — e.g., "Let me know if you need clarification."]
+- You always end responses with [HOW YOU CLOSE e.g., "Let me know if you need clarification."]
 
 # WHAT YOU DO
 You help users with:
@@ -270,7 +270,7 @@ when providing guidance. If uncertain, say so.
 - You do not interpret legal contract terms
 - You do not provide vendor-specific pricing advice
 - You do not make exceptions to policy — you explain the exceptions process
-If asked to do any of the above, say: "That's outside what I can help with —
+If asked to do any of the above, say: "That's outside what I can help with
 for that, please contact procurement@acmecorp.com"
 
 # ESCALATION
@@ -326,7 +326,7 @@ BRANCH 1 — TRACK ORDER:
   Bot: "Please share your order number."
   → User provides number → Bot queries order system → Returns status
   → If delivered: "Your order was delivered on [DATE]. Tap to confirm receipt."
-  → If in transit: "Your order is on the way — expected [DATE]. Track here: [LINK]"
+  → If in transit: "Your order is on the way expected [DATE]. Track here: [LINK]"
   → If delayed: Escalate to human agent immediately
 
 BRANCH 2 — RETURN REQUEST:
@@ -406,7 +406,7 @@ DESIGN (ASSIST):
   A — Audience: Store staff + online chat users
   S — Scope: Product questions, size guides, comparative features,
               care instructions, compatibility checks
-  S — Style: Friendly sports enthusiast — "a knowledgeable fellow athlete"
+  S — Style: Friendly sports enthusiast "a knowledgeable fellow athlete"
   I — Information: Full product catalog PDFs, size guides, care manuals
   S — Safeguards: No price quotes (volatile), no stock availability,
                    no medical advice (injury/health related)
@@ -487,7 +487,7 @@ Document the results for each test.
 **Q1:** *"Have you built any custom AI tools? How did you approach it?"*
 
 **Strong Answer:**
-"Yes — I've built custom AI assistants using ChatGPT's Custom GPT feature and by designing detailed system prompts. My design process follows what I call the ASSIST framework: I define the Audience, Scope (what's in and what's explicitly out), Style and persona, Information to upload, Safeguards and guardrails, and the Trigger or opening experience. The most important element is the safeguards — clearly defining what the assistant should refuse to do is as critical as defining what it should do. I test every assistant with adversarial inputs before deploying, including asking it to ignore its instructions, asking out-of-scope questions, and having real target users test it without any explanation. The quality standard I apply is a 5-dimension scorecard: accuracy, scope compliance, tone consistency, escalation quality, and user experience."
+"Yes — I've built custom AI assistants using ChatGPT's Custom GPT feature and by designing detailed system prompts. My design process follows what I call the ASSIST framework: I define the Audience, Scope (what's in and what's explicitly out), Style and persona, Information to upload, Safeguards and guardrails, and the Trigger or opening experience. The most important element is the safeguards clearly defining what the assistant should refuse to do is as critical as defining what it should do. I test every assistant with adversarial inputs before deploying, including asking it to ignore its instructions, asking out-of-scope questions, and having real target users test it without any explanation. The quality standard I apply is a 5-dimension scorecard: accuracy, scope compliance, tone consistency, escalation quality, and user experience."
 
 ---
 

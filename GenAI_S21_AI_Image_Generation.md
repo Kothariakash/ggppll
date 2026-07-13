@@ -33,7 +33,7 @@ By the end of Session 21, you will be able to:
 
 ### 1.1 The Technology Behind the Magic
 
-AI image generators use a technology called **diffusion models**. Unlike text AI (which predicts the next word), image AI starts with random noise and progressively "de-noises" it — guided by the text prompt — until a coherent image emerges.
+AI image generators use a technology called **diffusion models**. Unlike text AI (which predicts the next word), image AI starts with random noise and progressively "de-noises" it guided by the text prompt until a coherent image emerges.
 
 ```
 HOW DIFFUSION MODELS WORK:
@@ -65,7 +65,7 @@ Step 4: UPSCALING (in high-quality models)
 | **Outpainting** | Extending an image beyond its original boundaries |
 | **Style Transfer** | Applying the visual style of a reference image to new content |
 | **Seed** | A number that determines the starting noise — same seed = reproducible result |
-| **Steps** | Number of de-noising iterations — more steps = higher quality (up to a limit) |
+| **Steps** | Number of de-noising iterations more steps = higher quality (up to a limit) |
 | **CFG Scale** | How closely the AI follows the prompt vs. being creative (Classifier-Free Guidance) |
 | **Negative Prompt** | Words describing what you do NOT want in the image |
 
@@ -296,8 +296,8 @@ low quality, blurry, cheesy stock photo
 PROMPT TEMPLATE — Presentation Background:
 
 Abstract [THEME — data / growth / connection / innovation / sustainability] concept.
-[COLOR PALETTE matching brand — e.g., "blues and whites with subtle gradients"]
-Minimal, clean design — no text, no recognizable objects.
+[COLOR PALETTE matching brand e.g., "blues and whites with subtle gradients"]
+Minimal, clean design no text, no recognizable objects.
 Suitable as a PowerPoint or Keynote slide background.
 Resolution: high quality, sharp edges.
 Style: modern corporate graphic design, flat and geometric.
@@ -374,7 +374,7 @@ IN MOST JURISDICTIONS:
 
 RISKS TO UNDERSTAND:
   ⚠ Some AI tools (Midjourney, early Stable Diffusion) were trained on
-    web-scraped images without explicit licenses — ongoing legal debate
+    web-scraped images without explicit licenses ongoing legal debate
   ⚠ Generating images "in the style of a living artist" is legally grey
     and ethically questionable
   ⚠ DALL-E 3 has content policies that prevent generating images that
@@ -401,14 +401,14 @@ PROFESSIONAL RESPONSIBILITY:
   ✓ Label AI-generated images in contexts where the audience would assume
     real photography (journalism, product listings, professional profiles)
   ✓ Consider representation: AI default outputs often reflect Western,
-    non-diverse aesthetics — actively prompt for diversity
+    non-diverse aesthetics actively prompt for diversity
   ✓ Do not use AI images to replace photographers without considering
     the economic impact on creative professionals
 ```
 
 ### 6.3 Representation in AI Images
 
-One of the most important professional considerations: AI image generators have biases in their default outputs — certain genders, ethnicities, ages, and body types appear more frequently without explicit prompting.
+One of the most important professional considerations: AI image generators have biases in their default outputs certain genders, ethnicities, ages, and body types appear more frequently without explicit prompting.
 
 **Actively prompt for representation:**
 ```
@@ -417,7 +417,7 @@ Write: "a female South Asian doctor in her 40s in a modern hospital"
 
 Instead of: "a team meeting"
 Write: "a diverse team of 5 professionals (mixed gender, ethnicity, age 25–55)
-in a collaborative meeting. Not all are wearing suits — business casual."
+in a collaborative meeting. Not all are wearing suits business casual."
 
 Instead of: "a CEO"
 Write: "a Black male CEO in his 50s, confident and well-dressed,
@@ -539,7 +539,7 @@ Evaluate: Would this fit into a professional document you'd present to a manager
 **Q1:** *"How would you use AI image generation in a professional context?"*
 
 **Strong Answer:**
-"I use AI image generation for three main professional purposes. First, marketing and social media visuals — using DALL-E 3 or Canva AI with carefully written VACS prompts (Visual subject, Atmosphere, Composition, Style) that specify exactly the mood, framing, and style I want. Second, presentation assets — custom backgrounds and icons that are consistent with a brand's visual identity, generated in minutes rather than sourced from stock libraries. Third, product visualization — lifestyle images showing products in realistic contexts. I always include negative prompts to avoid common AI image problems like distorted faces or generic stock photo aesthetics. For commercial use, I use Adobe Firefly specifically because it's trained on licensed content. I apply representation principles actively — explicitly describing diverse subjects rather than relying on AI defaults."
+"I use AI image generation for three main professional purposes. First, marketing and social media visuals using DALL-E 3 or Canva AI with carefully written VACS prompts (Visual subject, Atmosphere, Composition, Style) that specify exactly the mood, framing, and style I want. Second, presentation assets custom backgrounds and icons that are consistent with a brand's visual identity, generated in minutes rather than sourced from stock libraries. Third, product visualization lifestyle images showing products in realistic contexts. I always include negative prompts to avoid common AI image problems like distorted faces or generic stock photo aesthetics. For commercial use, I use Adobe Firefly specifically because it's trained on licensed content. I apply representation principles actively explicitly describing diverse subjects rather than relying on AI defaults."
 
 ---
 
@@ -562,13 +562,13 @@ Evaluate: Would this fit into a professional document you'd present to a manager
 |------|-----------|
 | **Diffusion Model** | An AI architecture that generates images by progressively removing noise from a random starting point |
 | **Text-to-Image** | Generating an image from a natural language description |
-| **VACS Framework** | Visual subject, Atmosphere, Composition, Style — a framework for image prompt writing |
+| **VACS Framework** | Visual subject, Atmosphere, Composition, Style a framework for image prompt writing |
 | **Negative Prompt** | Text describing what should be EXCLUDED from the generated image |
-| **Seed** | A numerical value that determines the starting noise state — same seed produces reproducible results |
+| **Seed** | A numerical value that determines the starting noise state same seed produces reproducible results |
 | **Inpainting** | AI-powered editing of a specific region within an existing image |
 | **Style Reference** | A description or example image used to guide the visual style of AI output |
-| **Adobe Firefly** | Adobe's AI image generation tool trained on licensed content — safe for commercial use |
-| **CFG Scale** | Classifier-Free Guidance — controls how closely AI follows the prompt vs. creative freedom |
+| **Adobe Firefly** | Adobe's AI image generation tool trained on licensed content safe for commercial use |
+| **CFG Scale** | Classifier-Free Guidance controls how closely AI follows the prompt vs. creative freedom |
 
 ---
 
